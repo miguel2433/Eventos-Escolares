@@ -7,10 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node.js
 node_modules
 dist
 dist-ssr
 *.local
+
+# ASP.NET Core Build Artifacts
+/bin
+/obj
+
+# ASP.NET Core Configurations
+/Properties/launchSettings.json
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +30,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Otros archivos de caché y configuración
+/.cache
+/.parcel-cache
+/coverage
