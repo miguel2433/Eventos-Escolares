@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{9EE17B04-30B7-4DE2-AEB4-E60939476E21}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{3503910A-B703-4610-A9DF-EE0D8A95F63D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventosBack", "BackEnd\EventosBack\EventosBack.csproj", "{605C0B2B-CEFA-4CA8-B3CA-E2573241A801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventosBack", "BackEnd\EventosBack\EventosBack.csproj", "{D08E69B4-42DB-4CE5-A4B3-122B049556AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{605C0B2B-CEFA-4CA8-B3CA-E2573241A801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{605C0B2B-CEFA-4CA8-B3CA-E2573241A801}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{605C0B2B-CEFA-4CA8-B3CA-E2573241A801}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{605C0B2B-CEFA-4CA8-B3CA-E2573241A801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08E69B4-42DB-4CE5-A4B3-122B049556AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08E69B4-42DB-4CE5-A4B3-122B049556AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08E69B4-42DB-4CE5-A4B3-122B049556AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08E69B4-42DB-4CE5-A4B3-122B049556AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{605C0B2B-CEFA-4CA8-B3CA-E2573241A801} = {9EE17B04-30B7-4DE2-AEB4-E60939476E21}
+		{D08E69B4-42DB-4CE5-A4B3-122B049556AF} = {3503910A-B703-4610-A9DF-EE0D8A95F63D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BAC3C2B-E5E7-4FC5-B019-7BBF1CB7DC83}
