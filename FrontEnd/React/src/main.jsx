@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Button } from './Button.jsx';
+import { Input } from './Input.jsx';
 import '../output.css';
 
 
@@ -11,5 +12,6 @@ const root = createRoot(document.getElementById('root'));
 root.render(
   <StrictMode>
     <Button />
+    <Input />
   </StrictMode>
 );
