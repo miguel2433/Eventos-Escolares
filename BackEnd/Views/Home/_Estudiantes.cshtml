@@ -1,0 +1,20 @@
+@model IEnumerable<Estudiante>
+
+@if (Model is not null)
+{
+    <p class="estudiantes">Estudiantes</p>
+    <section class="containers">
+        <div class="contenido">
+            @foreach (var estudiante in Model)
+            {
+                <img src="@estudiante.ImageUrl" class="img-est">
+                <h2>@estudiante.Nombre</h2>
+                <p>@estudiante.Correo</p>
+                <div class="anio">
+                    <p>@estudiante.Año-</p>
+                    <p>@estudiante.Division</p>
+                </div>
+            }
+        <div/>
+    </section>
+}

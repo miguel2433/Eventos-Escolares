@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BackEnd.Models;
+using BackEnd.Servicios;  // Asegúrate de que esta línea esté presente
+
 
 namespace BackEnd.Controllers;
 
@@ -15,9 +17,14 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        /*Instanciando un repoEstudiante*/
+        var repoEstudiante = new RepoEstudiante();
+        var estudiantes = repoEstudiante.ObtenerEstudiantes().Take(3).ToList();
+        var modelo = new HomeIndexViewModel() {Estudiantes = estudiantes};
+        return View(modelo);
     }
 
+    
     public IActionResult Privacy()
     {
         return View();
