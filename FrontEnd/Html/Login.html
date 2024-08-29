@@ -3,21 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Login.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <h1>Eventos Escolares</h1>
-                <div>
-                    
-                </div>
-            </div>
+    <header class="header">
+        <nav class="navbar">
+            <h1>Eventos Escolares</h1>
         </nav>
     </header>
-    <main>
-
+    <main class="main">
+        <section class="section">
+            <form method="post" class="formulario">
+                <h1>Login</h1>
+                <div class="divs
+                ">
+                    <div class="contenedor-divs">
+                        <div class="contenedor-input">
+                            <label id="arriba1" class="arriba" for="username">Username</label>
+                            <input class="input username" type="Email" name="username" placeholder="Nombre de usuario">
+                            <p class="campo-obligatorio">Campo obligatorio</p>
+                        </div>
+                        <div class="contenedor-input">
+                            <label id="arriba2" class="arriba" for="password">Contraseña</label>
+                            <input class="input contraseña" type="password" name="password" placeholder="Contraseña">
+                            <p class="campo-obligatorio">Campo obligatorio</p>
+                        </div>
+                    </div>
+                    <div class="contenedor-email">
+                        <label id="arriba3" class="arriba" for="email">Email</label>
+                        <input class="input email" type="Email" name="email" placeholder="Email">
+                        <p class="campo-obligatorio">Campo obligatorio</p>
+                    </div>
+                </div>
+                <div class="contenedor-buttons">
+                    <button class="boton" type="submit">Login</button>
+                    <button class="Registrate"><a href="#">Registrate</a></button>
+                </div>
+                <p>¿Olvidaste tu contraseña?</p>
+            </form>
+            <script src="../Js/input.js"></script>
+        </section>
     </main>
 </body>
 </html>
