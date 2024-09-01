@@ -33,6 +33,12 @@ public class HomeController : Controller
         return View(estudiantes);
     }
 
+
+    public IActionResult Gracias()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

@@ -10,15 +10,18 @@ CREATE TABLE Eventos (
     Nombre VARCHAR(100),
     Fecha DATE,
     Ubicación VARCHAR(100),
-    Descripción TEXT
+    Descripción VARCHAR(250)
 );
 
 -- Crear la tabla de estudiantes
 CREATE TABLE Estudiantes (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(100),
-    Grado VARCHAR(10),
-    Correo VARCHAR(100)
+    Apellido VARCHAR(100),
+    Division TINYINT UNSIGNED,
+    Año TINYINT UNSIGNED,
+    Correo VARCHAR(100),
+    ImageUrl VARCHAR(255)
 );
 
 -- Crear la tabla de participaciones
@@ -31,8 +34,12 @@ CREATE TABLE Participaciones (
 );
 
 -- Crear la tabla de organizadores
+-- Crear la tabla de organizadores con los nuevos campos
 CREATE TABLE Organizadores (
-    ID INT AUTO_INCREMENT PRIMARY KEY,
-    Evento_ID INT,
-    FOREIGN KEY (Evento_ID) REFERENCES Eventos(ID)
+    IDorganizadores INT AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(100),
+    Correo VARCHAR(100),
+    Password VARCHAR(100),
+    ImageUrl VARCHAR(255)
 );
+
