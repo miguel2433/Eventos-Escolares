@@ -6,7 +6,7 @@ using BackEnd.Models;
 
 namespace BackEnd.Servicios
 {
-    public class RepoEstudiante
+    public class RepoEstudiante : IRepoEstudiante
     {
         public List<Estudiante> ObtenerEstudiantes()
         {

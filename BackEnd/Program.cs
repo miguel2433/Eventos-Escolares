@@ -1,7 +1,9 @@
+using BackEnd.Servicios;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IRepoEstudiante, RepoEstudiante>();
 
 var app = builder.Build();
 
