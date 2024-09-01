@@ -3,7 +3,7 @@ namespace BackEnd.Models
 {
     public class Eventos
     {
-        public int idEventos {get; set;}
+        public int idEvento {get; set;}
 
         public required string Nombre {get; set;}
 

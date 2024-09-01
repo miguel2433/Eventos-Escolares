@@ -38,7 +38,7 @@ CREATE PROCEDURE altaParticipacion (
     IN unEstudianteId INT
 )
 BEGIN
-    INSERT INTO Participaciones (Evento_ID, Estudiante_ID)
+    INSERT INTO Participaciones (idEvento, idEstudiante)
     VALUES (unEventoId, unEstudianteId);
 END //
 DELIMITER ;
@@ -52,7 +52,7 @@ CREATE PROCEDURE altaOrganizador (
     IN unaImageUrl VARCHAR(255)
 )
 BEGIN
-    INSERT INTO Organizadores (Nombre, Correo, Password, ImageUrl)
+    INSERT INTO Organizadores (Nombre, Correo, Contraseña, ImageUrl)
     VALUES (unNombreOrganizador, unCorreoOrganizador, unPasswordOrganizador, unaImageUrl);
 END //
 DELIMITER ;

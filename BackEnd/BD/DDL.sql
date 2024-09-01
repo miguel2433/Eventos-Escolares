@@ -1,12 +1,13 @@
 -- Crear la base de datos
+DROP DATABASE IF EXISTS OrganizacionEventosEscolares;
 CREATE DATABASE OrganizacionEventosEscolares;
 
 -- Usar la base de datos
 USE OrganizacionEventosEscolares;
 
 -- Crear la tabla de eventos
-CREATE TABLE Eventos (
-    ID INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE Evento (
+    idEvento INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(100),
     Fecha DATE,
     Ubicación VARCHAR(100),
@@ -14,8 +15,8 @@ CREATE TABLE Eventos (
 );
 
 -- Crear la tabla de estudiantes
-CREATE TABLE Estudiantes (
-    ID INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE Estudiante (
+    idEstudiante INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(100),
     Apellido VARCHAR(100),
     Division TINYINT UNSIGNED,
@@ -26,20 +27,20 @@ CREATE TABLE Estudiantes (
 
 -- Crear la tabla de participaciones
 CREATE TABLE Participaciones (
-    ID INT AUTO_INCREMENT PRIMARY KEY,
-    Evento_ID INT,
-    Estudiante_ID INT,
-    FOREIGN KEY (Evento_ID) REFERENCES Eventos(ID),
-    FOREIGN KEY (Estudiante_ID) REFERENCES Estudiantes(ID)
+    idParticipacion INT AUTO_INCREMENT PRIMARY KEY,
+    idEvento INT,
+    idEstudiante INT,
+    FOREIGN KEY (idEvento) REFERENCES Evento(idEvento),
+    FOREIGN KEY (idEstudiante) REFERENCES Estudiante(idEstudiante)
 );
 
 -- Crear la tabla de organizadores
 -- Crear la tabla de organizadores con los nuevos campos
 CREATE TABLE Organizadores (
-    IDorganizadores INT AUTO_INCREMENT PRIMARY KEY,
+    idOrganizadores INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(100),
     Correo VARCHAR(100),
-    Password VARCHAR(100),
+    Contraseña VARCHAR(100),
     ImageUrl VARCHAR(255)
 );
 

@@ -1,9 +1,9 @@
 
 namespace BackEnd.Models
 {
-    public class Participaciones
+    public class Participacion
     {
-        public int idParticipaciones {get; set;}
+        public int idParticipacion {get; set;}
 
         public int idEventos {get; set;}
 

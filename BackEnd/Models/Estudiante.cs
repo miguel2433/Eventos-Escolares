@@ -6,12 +6,12 @@ namespace BackEnd.Models
         public int idEstudiante {get; set;}
 
         public required string Nombre {get; set;}
-        
+
         public string Apellido {get;set;}
 
-        public int Año {get; set;}
+        public byte Año {get; set;}
 
-        public int Division {get;set;}
+        public byte Division {get;set;}
 
         public required string Correo {get; set;}
 
