@@ -24,7 +24,7 @@ namespace BackEnd.Controllers
 
         [HttpPost]
 
-        public IActionResult Contacto(Estudiante estudiante)
+        public async Task<IActionResult> Contacto(Estudiante estudiante)
         {
             if (!ModelState.IsValid)
             {
@@ -34,7 +34,7 @@ namespace BackEnd.Controllers
             // Registra el modelo recibido para depuración
             estudiante.idEstudiante = 1;
 
-            repoEstudiante.Crear(estudiante);
+            await repoEstudiante.Crear(estudiante);
 
             return View();
         }

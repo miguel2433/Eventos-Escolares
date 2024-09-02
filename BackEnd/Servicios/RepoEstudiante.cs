@@ -17,7 +17,7 @@ namespace BackEnd.Servicios
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         } 
 
-        public void Crear(Estudiante estudiante)
+        public async Task Crear(Estudiante estudiante)
         {
             using (var connection = new MySqlConnection(_connectionString))
             {
@@ -30,7 +30,7 @@ namespace BackEnd.Servicios
                 try
                 {
                     // Ejecuta la consulta pasando el modelo de estudiante como parámetros
-                    var id = connection.QuerySingle<int>(query, estudiante);
+                    var id = await connection.QuerySingleAsync<int>(query, estudiante);
                     // Ahora puedes usar el ID si lo necesitas
                 }
                 catch (Exception ex)

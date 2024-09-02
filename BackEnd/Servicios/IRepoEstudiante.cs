@@ -8,6 +8,6 @@ namespace BackEnd.Servicios
 {
     public interface IRepoEstudiante
     {
-        public void Crear (Estudiante estudiante);
+        public Task Crear (Estudiante estudiante);
     }
 }
