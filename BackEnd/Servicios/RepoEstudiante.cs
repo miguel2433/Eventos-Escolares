@@ -3,53 +3,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BackEnd.Models;
+using Dapper;
+using MySql.Data.MySqlClient;
 
 namespace BackEnd.Servicios
 {
     public class RepoEstudiante : IRepoEstudiante
     {
-        public List<Estudiante> ObtenerEstudiantes()
-        {
-            return new List<Estudiante>() 
-            { 
-                new() 
-                {
-                    idEstudiante = 1,
-                    Nombre = "Miguel",
-                    Año = 5,
-                    Division = 7,
-                    Correo = "miguelito@gmail.com",
-                    ImageUrl = "/Imagenes/tradeo_OFERTO_CLARO.png"
-                },
-                new() 
-                {
-                    idEstudiante = 1,
-                    Nombre = "Juan",
-                    Año = 5,
-                    Division = 7,
-                    Correo = "juan@gmail.com",
-                    ImageUrl = "/Imagenes/Posteo.png"
-                },
-                new() 
-                {
-                    idEstudiante = 1,
-                    Nombre = "Roberto",
-                    Año = 5,
-                    Division = 7,
-                    Correo = "roberto@gmail.com",
-                    ImageUrl = "/Imagenes/Perfil_modo_claro.png"
-                },
-                new() 
-                {
-                    idEstudiante = 1,
-                    Nombre = "Cheng",
-                    Año = 5,
-                    Division = 7,
-                    Correo = "cheng@gmail.com",
-                    ImageUrl = "/Imagenes/Posteo-oscuro.png"
-                },
-            };
-        }
+        private readonly string _connectionString;
 
+        public RepoEstudiante(IConfiguration configuration)
+        {
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
+        } 
+
+        public void Crear(Estudiante estudiante)
+        {
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                // Consulta para insertar un estudiante y obtener el ID recién insertado
+                var query = @"
+                    INSERT INTO Estudiante (Nombre, Apellido, Division, Año, Correo,ImageUrl) 
+                    VALUES (@Nombre, @Apellido, @Division, @Año, @Correo,@ImageUrl);
+                    SELECT LAST_INSERT_ID();";
+
+                try
+                {
+                    // Ejecuta la consulta pasando el modelo de estudiante como parámetros
+                    var id = connection.QuerySingle<int>(query, estudiante);
+                    // Ahora puedes usar el ID si lo necesitas
+                }
+                catch (Exception ex)
+                {
+                    // Registra el error para depurar
+                    Console.WriteLine("Error al insertar datos: " + ex.Message);
+                }
+            }
+        }
     }
 }

@@ -21,16 +21,13 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         /*Instanciando un repoEstudiante*/
-        var estudiantes = repoEstudiante.ObtenerEstudiantes().Take(3).ToList();
-        var modelo = new HomeIndexViewModel() {Estudiantes = estudiantes};
-        return View(modelo);
+        return View();
     }
 
     
     public IActionResult Estudiantes()
     {
-        var estudiantes = repoEstudiante.ObtenerEstudiantes();
-        return View(estudiantes);
+        return View();
     }
 
 

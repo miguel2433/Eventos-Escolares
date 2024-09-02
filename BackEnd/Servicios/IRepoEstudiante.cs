@@ -8,6 +8,6 @@ namespace BackEnd.Servicios
 {
     public interface IRepoEstudiante
     {
-        List<Estudiante> ObtenerEstudiantes();
+        public void Crear (Estudiante estudiante);
     }
 }
