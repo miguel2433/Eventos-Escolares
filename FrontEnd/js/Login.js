@@ -2,7 +2,7 @@ const Registrate = document.querySelector('.registrate');
 const Registro = document.querySelector('.Registro');
 const RegistroInner = document.querySelector('.Registro-inner');
 const Login = document.querySelector('.section');
-const Salir = document.querySelector('.salir-register')
+const Salir = document.querySelector('.salir')
 let Estado = false;
 
 
@@ -29,7 +29,14 @@ Registrate.addEventListener('click', function() {
   if(Estado === false)
   {
     ExpansionDeDominio();
+    Registrate.innerHTML ='Salir Registro';
     Estado = true;
+  }
+  else
+  {
+    DominioIncompleto();
+    Registrate.innerHTML = 'Registrate';
+    Estado = false;
   }
 });
 
@@ -39,6 +46,7 @@ Salir.addEventListener('click', function()
     {
         DominioIncompleto();
         Estado = false;
+        Registrate.innerHTML = 'Registrate';
     }
 });
 
