@@ -46,16 +46,16 @@
   }
   
   .container-pages a {
-    width: 100px;
+    width: 114px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     height: 100%;
     color: rgb(121, 121, 128);
     font-weight: 600;
-    transition: border-right .2s ease-in-out,border-left .3s ease-in-out;
+    transition: border-right .2s ,border-left .2s;
   }
   
   
@@ -85,6 +85,8 @@
     align-items: center;
   }
   
+
+  /*Login */
   .section {
     display: flex;
     justify-content: start;
@@ -103,6 +105,8 @@
     color: rgb(100, 100, 196);
   }
   
+
+  /*Formulario Login*/
   .divs-container{
     margin-top: 50px;
     display: flex;
@@ -111,6 +115,7 @@
     flex-direction: column;
   }
   
+  /*input registro*/
   
   .input{
     height: 40px;
@@ -253,6 +258,7 @@
     visibility: hidden;
   }
   
+  /*Inputs de los Registros*/
   .input-registro {
     height: 40px;
     width: 200px;
@@ -263,11 +269,17 @@
     margin: 4px;
     background-color: rgb(113, 113, 220);
     color: white;
+    transition: border .5s ease-in-out;
+    border: 2px solid rgb(98, 98, 192);
   }
   
-  .input-registro::placeholder {
+.input-registro:focus{
+    border: 2px white solid;
+}
+
+.input-registro::placeholder {
     color: white;
-  }
+}
   
   .boton-registro{
     font-size: 16px;
@@ -280,7 +292,10 @@
     width: 100px;
     border-radius: 20px;
     cursor: pointer;
+    transition: scale .4s ease-in;
   }
   
-  
+  .boton-registro:hover{
+    scale: 1.10;
+  }
   
