@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/Login.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <nav>
+        <div class="container-logo">
+          <a class="logo" href="">Eventos Escolares</a>
+          <div class="container-pages">
+            <a href="">Eventos</a>
+            <a href="">Perfil</a>
+            <a href="">Crear Evento</a>
+          </div>
+        </div>
+        <div class="container-icons">
+        </div>
+    </nav>
+  </header>
+  <main>
+    <section class="section">
+      <h1>Inicio de sesion</h1>
+        <form class="divs-container">
+          <div class="div-inputs">
+            <label for="Nombre">Nombre</label>
+            <input class="input" 
+            type="text" name="Nombre" placeholder="Nombre de usuario">
+          </div>
+          <div class="div-inputs">
+            <label for="Email">Email</label>
+            <input class="input" type="email" name="Email" placeholder="Correo electronico">
+          </div>
+          <div class="div-inputs">
+            <label for="Contraseña">Contraseña</label>
+            <input class="input" type="password" name="Contraseña" placeholder="Contraseña">
+          </div>
+          <button class="button-login" type="submit">Acceder</button>
+        </form>
+        <div class="parrafo-login">
+          <p>¿No tienes una cuenta?</p>
+          <p class="registrate">Registrate</p>
+        </div>
+    </section>
+    <!--Registro de usuario -->
+    <section class="Registro">
+      <div class="Registro-inner">
+          <div class="salir-register"><span class="salir"></span></div>
+          <h1>Registrate</h1>
+          <form class="form-registro">
+            <div class="contenedor-registros">
+              <div class="div-inputs-registro">
+                <label for="Nombre">Nombre</label>
+                <input class="input-registro" type="text" name="Nombre" placeholder="Nombre">
+              </div>
+              <div class="div-inputs-registro">
+                <label for="Apellido">Apellido</label>
+                <input class="input-registro" type="text" name="Apellido" placeholder="Apellido">
+              </div>
+            </div>
+            <div class="contenedor-registros">
+              <div class="div-inputs-registro">
+                <label for="Username">Username</label>
+                <input class="input-registro" type="text" name="Email" placeholder="Nombre de usuario">
+              </div>
+              <div class="div-inputs-registro">
+                <label for="Email">Email</label>
+                <input class="input-registro" type="email" name="Email" placeholder="Correo electronico">
+              </div>
+            </div>
+            <div class="contenedor-registros">
+              <div class="div-inputs-registro">
+                <label for="Contraseña">Contraseña</label>
+                <input class="input-registro" type="password" name="Contraseña" placeholder="Contraseña">
+              </div>
+              <div class="div-inputs-registro">
+                <label for="Email">Repetir Contraseña</label>
+                <input class="input-registro" type="password" name="Email" placeholder="Repetir Contraseña">
+              </div>
+            </div>
+            <button class="boton-registro" type="submit">Registrate</button>
+          </form>
+      </div>
+    </section>
+  </main>
+  <script src="../js/Login.js"></script>
+</body>
+</html>
