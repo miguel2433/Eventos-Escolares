@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 1fr;
+    grid-template-areas: 
+    "header"
+    "main";
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 40vw 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "perfil historial";
+}
+
+.perfil-section{
+    padding: 25px;
+    grid-area: perfil;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil-card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    border: 2px solid rgb(100, 100, 196);
+    border-radius: 20px;
+}
+
+.image-perfil{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: salmon;
+}
+
+.historia-evento{
+    grid-area: historial;
+}
