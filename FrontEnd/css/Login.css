@@ -108,7 +108,7 @@
 
   /*Formulario Login*/
   .divs-container{
-    margin-top: 50px;
+    margin-top: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,18 +129,34 @@
   }
   
   .div-inputs{
+    margin-top: 5px;
     display: flex;
     justify-content: start;
     align-items: center;
     position: relative;
   }
   
-  .div-inputs label{
-    position: absolute;
-    font-size: 11px;
-    left: 10px;
-    visibility: hidden;
-  }
+.div-inputs label{
+  position: absolute;
+  font-size: 12px;
+  top: -15px;
+  left: 13px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  pointer-events: none;
+}
+/*Label en el borde del input*/
+
+.div-inputs input:focus + label,
+.div-input input:not(:placeholder-shown) + label {
+  font-weight: 700;
+  background-color: white;
+  top: -6px;
+  opacity: 1;
+  font-size: 0.9em;
+  color: rgb(100, 100, 196);
+}
+
   
   .button-login{
     font-size: 16px;
@@ -269,12 +285,15 @@
     position: relative;
   }
   
-  .div-inputs-registro label {
-    position: absolute;
-    font-size: 11px;
-    left: 10px;
-    visibility: hidden;
-  }
+.div-inputs-registro label{
+  position: absolute;
+  font-size: 12px;
+  top: -15px;
+  left: 22px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
   
   /*Inputs de los Registros*/
   .input-registro {
@@ -284,11 +303,12 @@
     outline: none;
     border: none;
     padding-left: 20px;
-    margin: 4px;
-    background-color: rgb(113, 113, 220);
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(100, 100, 196);
     color: white;
-    transition: border .5s ease-in-out;
-    border: 2px solid rgb(98, 98, 192);
+    transition: border .5s ease;
+    border: 2px solid rgb(97, 97, 183);
   }
   
 .input-registro:focus{
@@ -296,11 +316,8 @@
 }
 
 .input-registro::placeholder {
-    transition: color .5s ease-in-out;
-  }
-
-.input-registro:focus::placeholder {
-    color: #d7d7d7; /* Cambia el color del placeholder en focus */
+    transition: color .5s ease;
+    color: white;
   }
   
   .boton-registro{
@@ -321,3 +338,13 @@
     scale: 1.10;
   }
   
+
+.div-inputs-registro input:focus + label,
+.div-inputs-registro input:not(:placeholder-shown) + label {
+  font-weight: 700;
+  background-color:rgb(100, 100, 196);
+  color: white;
+  top: 0px;
+  opacity: 1;
+  font-size: 0.9em;
+}
