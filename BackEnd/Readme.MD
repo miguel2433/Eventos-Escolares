@@ -1,6 +1,6 @@
 ## Que aplicar en el appsettings.Development.json:
 
-
+```json
 {
   "AllowedHosts": "*",
   "ConnectionStrings": 
