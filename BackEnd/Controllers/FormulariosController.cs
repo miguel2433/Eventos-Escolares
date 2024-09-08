@@ -1,8 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Dapper;
-using MySql.Data.MySqlClient; // Asegúrate de tener este espacio de nombres si usas MySQL.
-using BackEnd.Models;
-using Microsoft.Extensions.Configuration;
 using BackEnd.Servicios;
 
 namespace BackEnd.Controllers
