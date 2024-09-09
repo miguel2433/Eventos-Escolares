@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BackEnd.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BackEnd.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\Perfil_modo_claro.png",
       "PackagePath": "staticwebassets\\Imagenes\\Perfil_modo_claro.png"
     },
@@ -21,16 +17,36 @@
       "PackagePath": "staticwebassets\\Imagenes\\tradeo_OFERTO_CLARO.png"
     },
     {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Evento.css",
+      "PackagePath": "staticwebassets\\css\\Evento.css"
+    },
+    {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Navbar.css",
+      "PackagePath": "staticwebassets\\css\\Navbar.css"
+    },
+    {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Perfil.css",
+      "PackagePath": "staticwebassets\\css\\Perfil.css"
+    },
+    {
       "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\custom.css",
       "PackagePath": "staticwebassets\\css\\custom.css"
     },
     {
-      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\js\\Evento.js",
+      "PackagePath": "staticwebassets\\js\\Evento.js"
+    },
+    {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\js\\Login.js",
+      "PackagePath": "staticwebassets\\js\\Login.js"
     },
     {
       "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\js\\site.js",

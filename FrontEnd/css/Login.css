@@ -51,7 +51,7 @@
     flex-direction: column;
   }
   
-  /*input registro*/
+  /*input Login*/
   
   .input{
     height: 40px;
@@ -201,7 +201,7 @@
 }
 
   .form-registro {
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,3 +284,11 @@
   opacity: 1;
   font-size: 0.9em;
 }
+
+/* Eliminar las flechas en Chrome, Safari, Edge y Opera */
+.input-registro[type="number"]::-webkit-outer-spin-button,
+.input-registro[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+

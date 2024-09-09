@@ -1,0 +1,296 @@
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 1fr;
+  grid-template-areas: 
+  "header"
+  "main";
+}
+
+header{
+  grid-area: header;
+}
+
+.main-login{
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Login */
+.section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  border: 2px solid #d7d7d7;
+  border-radius: 20px;
+  padding: 10px;
+  transition: border-radius 0.8s ease, border-right 0.8s ease, border 0.8s ease;
+}
+
+.section h1{
+  font-size: 20px;
+  color: rgb(100, 100, 196);
+}
+
+/*Formulario Login*/
+.divs-container{
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*input Login*/
+
+.input{
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px #d7d7d7 solid;
+  padding-left: 20px;
+  margin: 4px;
+  transition: border .5s ease-in-out ;
+}
+
+.div-inputs{
+  margin-top: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+  
+.div-inputs label{
+  position: absolute;
+  font-size: 12px;
+  top: -15px;
+  left: 13px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  pointer-events: none;
+}
+/*Label en el borde del input*/
+
+.div-inputs input:focus + label,
+.div-input input:not(:placeholder-shown) + label {
+  font-weight: 700;
+  background-color: white;
+  top: -6px;
+  opacity: 1;
+  font-size: 0.9em;
+  color: rgb(100, 100, 196);
+}
+
+  
+.button-login{
+  font-size: 16px;
+  height: 30px;
+  width: 80px;
+  margin-top: 35px;
+  background-color: rgb(100, 100, 196);
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: scale .4s ease-in;
+}
+
+.button-login:hover{
+  scale: 1.10;
+}
+
+.parrafo-login{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  color: rgb(121, 121, 128);
+}
+  
+.registrate-malo{
+  margin-bottom: 0;
+}
+
+.registrate{
+  transition: color .3s ease-in;
+}
+
+.registrate:hover{
+  color: rgb(100, 100, 196);
+  cursor: pointer;
+}
+
+
+.input::placeholder {
+  transition: color .5s ease-in-out;
+}
+
+/* Estilo del placeholder cuando el input está en focus */
+.input:focus::placeholder {
+  color: rgb(100, 100, 196); /* Cambia el color del placeholder en focus */
+}
+
+.input:focus{
+  border: 2px solid rgb(100, 100, 196);
+}
+
+/*Registro de la pagina*/
+
+
+.Registro {
+  width: 0;
+  height: 400px;
+  background-color: rgb(100, 100, 196);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  transition: width 0.7s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Registro-inner {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  margin-top: 40px;
+  visibility: hidden;
+  transition: opacity 1.5s ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+  
+.Registro.visible {
+    width: 500px; /* O el ancho que desees */
+}
+  
+.Registro.visible .Registro-inner {
+    opacity: 1;
+    visibility: visible;
+}
+  
+.salir-register{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.salir-register span{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.form-registro {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor-registros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-inputs-registro {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+  
+.div-inputs-registro label{
+  position: absolute;
+  font-size: 12px;
+  top: -15px;
+  left: 22px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+  
+/*Inputs de los Registros*/
+.input-registro {
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(100, 100, 196);
+  color: white;
+  transition: border .5s ease;
+  border: 2px solid rgb(97, 97, 183);
+}
+  
+.input-registro:focus{
+    border: 2px white solid;
+}
+
+.input-registro::placeholder {
+    transition: color .5s ease;
+    color: white;
+}
+
+.boton-registro{
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: white;
+  color: rgb(113, 113, 220);
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: scale .4s ease-in;
+}
+
+.boton-registro:hover{
+  scale: 1.10;
+}
+  
+
+.div-inputs-registro input:focus + label,
+.div-inputs-registro input:not(:placeholder-shown) + label {
+  font-weight: 700;
+  background-color:rgb(100, 100, 196);
+  color: white;
+  top: 0px;
+  opacity: 1;
+  font-size: 0.9em;
+}
+
+/* Eliminar las flechas en Chrome, Safari, Edge y Opera */
+.input-registro[type="number"]::-webkit-outer-spin-button,
+.input-registro[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+

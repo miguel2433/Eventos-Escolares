@@ -1,7 +1,4 @@
 using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using BackEnd.Models;
-using BackEnd.Servicios;  // Asegúrate de que esta línea esté presente
 
 /*Reciben las peticiones http del usuario y dan una respuesta(Todos los controladores)*/
 namespace BackEnd.Controllers;
@@ -21,12 +18,6 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         /*Instanciando un repoEstudiante*/
-        return View();
-    }
-
-    
-    public IActionResult Estudiantes()
-    {
         return View();
     }
 

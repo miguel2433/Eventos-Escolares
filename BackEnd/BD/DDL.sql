@@ -22,6 +22,7 @@ CREATE TABLE Estudiante (
     Division TINYINT UNSIGNED,
     Año TINYINT UNSIGNED,
     Correo VARCHAR(100),
+    Username VARCHAR(100),
     ImageUrl VARCHAR(255)
 );
 

@@ -1,6 +1,3 @@
-using Microsoft.AspNetCore.Mvc;
-using BackEnd.Servicios;
-
 namespace BackEnd.Controllers
 {
     public class FormulariosController : Controller

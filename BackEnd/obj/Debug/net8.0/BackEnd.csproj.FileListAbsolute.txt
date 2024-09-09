@@ -21,9 +21,7 @@ C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BackEnd.props
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BackEnd.props
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\scopedcss\bundle\BackEnd.styles.css
-C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\scopedcss\projectbundle\BackEnd.bundle.scp.css
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\BackEnd.dll
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\refint\BackEnd.dll
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\BackEnd.pdb
