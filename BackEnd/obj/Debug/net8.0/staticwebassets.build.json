@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RPaQ5MP+RBin5b6R6dbx1K4Z9OUiy3CFoXZ1FycQWVw=",
+  "Hash": "ztA/A1nzDoQsMzZxcJQKVCeuwSOiFdFlOL9j8/yPvh4=",
   "Source": "BackEnd",
   "BasePath": "_content/BackEnd",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Perfil.css"
+    },
+    {
+      "Identity": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\site.css",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\favicon.ico",

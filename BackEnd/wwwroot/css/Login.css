@@ -186,20 +186,46 @@ header{
 }
   
 .salir-register{
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: end;
     align-items: center;
+    position: relative;
 }
 
-.salir-register span{
-    height: 30px;
-    width: 30px;
-    background-color: blueviolet;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 100%;
-    cursor: pointer;
+.salir{
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-right: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: background .4s ease-in;
+}
+
+.salir:hover{
+  background-color: rgb(87, 87, 169);
+}
+
+.salir-cruz1{
+  position: absolute;
+  background-color: rgb(113, 113, 220);
+  height: 5px;
+  width: 20px;
+  transform: rotate(130deg);
+}
+
+.salir-cruz{
+  position: absolute;
+  background-color: rgb(113, 113, 220);
+  height: 5px;
+  width: 20px;
+  transform: rotate(50deg);
 }
 
 .form-registro {

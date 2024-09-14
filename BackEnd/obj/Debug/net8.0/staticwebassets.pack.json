@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\css\\custom.css"
     },
     {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
       "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
