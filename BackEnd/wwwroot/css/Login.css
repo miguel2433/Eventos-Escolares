@@ -242,6 +242,25 @@ header{
   align-items: center;
 }
 
+
+.boton-registro{
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: white;
+  color: rgb(113, 113, 220);
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: scale .4s ease-in;
+}
+
+.boton-registro:hover{
+  scale: 1.10;
+}
+
 .div-inputs-registro {
   display: flex;
   justify-content: start;
@@ -284,24 +303,13 @@ header{
     color: white;
 }
 
-.boton-registro{
-  font-size: 16px;
-  margin-top: 20px;
-  background-color: white;
-  color: rgb(113, 113, 220);
-  border: none;
-  outline: none;
-  height: 30px;
-  width: 100px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: scale .4s ease-in;
-}
 
-.boton-registro:hover{
-  scale: 1.10;
+/* Eliminar las flechas en Chrome, Safari, Edge y Opera */
+.input-registro[type="number"]::-webkit-outer-spin-button,
+.input-registro[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
-  
 
 .div-inputs-registro input:focus + label,
 .div-inputs-registro input:not(:placeholder-shown) + label {
@@ -311,12 +319,5 @@ header{
   top: 0px;
   opacity: 1;
   font-size: 0.9em;
-}
-
-/* Eliminar las flechas en Chrome, Safari, Edge y Opera */
-.input-registro[type="number"]::-webkit-outer-spin-button,
-.input-registro[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
 }
 

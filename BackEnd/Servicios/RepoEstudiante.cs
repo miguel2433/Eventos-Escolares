@@ -15,8 +15,8 @@ namespace BackEnd.Servicios
             {
                 // Consulta para insertar un estudiante y obtener el ID recién insertado
                 var query = @"
-                    INSERT INTO Estudiante (Nombre, Apellido, Division, Año, Correo,ImageUrl) 
-                    VALUES (@Nombre, @Apellido, @Division, @Año, @Correo,@ImageUrl);
+                    INSERT INTO Estudiante (Nombre, Apellido, Division, Año, Correo,ImageUrl,Username,Contraseña) 
+                    VALUES (@Nombre, @Apellido, @Division, @Año, @Correo,@ImageUrl,@Username,@Contraseña);
                     SELECT LAST_INSERT_ID();";
 
                 try

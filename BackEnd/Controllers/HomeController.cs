@@ -14,17 +14,24 @@ public class HomeController : Controller
         _logger = logger;
         this.repoEstudiante = repoEstudiante;
     }
-
+    
     public IActionResult Index()
     {
-        /*Instanciando un repoEstudiante*/
         return View();
     }
+        
+    [HttpPost]
 
-
-    public IActionResult Gracias()
+    public async Task<IActionResult> Index(Estudiante estudiante)
     {
-        return View();
+        if (!ModelState.IsValid)
+        {
+            return View(estudiante);
+        }
+        // Registra el modelo recibido para depuración
+        estudiante.idEstudiante = 1;
+        await repoEstudiante.Crear(estudiante);
+        return RedirectToAction("Evento", "Evento");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
