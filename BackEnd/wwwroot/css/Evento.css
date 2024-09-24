@@ -116,8 +116,8 @@ header{
   align-items: center;
   justify-content: center;
   border: 2px solid #d7d7d7;
-  height: 150px;
-  width: 500px;
+  height: 200px;
+  width: 800px;
   border-radius: 20px;
   transition: all 0.5s ease; /* Añadimos transición al contenedor */
 }
@@ -152,8 +152,8 @@ header{
 
 .image-event{
   border: none;
-  height: 100px;
-  width: 100px;
+  height: 80%;
+  width: 80%;
   background-color: brown;
   border-radius: 100%;
   display: flex;
@@ -162,7 +162,7 @@ header{
 }
 
 .description-event{
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   text-align: justify;
   padding: 0px 12px;
