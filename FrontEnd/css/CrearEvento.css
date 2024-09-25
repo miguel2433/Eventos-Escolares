@@ -79,22 +79,36 @@ body{
 
 
 .editar-boton{
-    background-color: white;
-    color: black;
-    transition: border .3s ease-in, background .5s ease-in, color .5s ease-in;
-    border: 2px solid rgb(100, 100, 196);
+  background-color: white;
+  color: black;
+  transition: border .8s ease, background .5s ease, color .5s ease;
+  border: 2px solid rgb(100, 100, 196);
 }
 
 .guardar-boton{
-    margin-right: 20px;
-    background-color: rgb(99, 99, 189);
-    color: white;
+  border: none;
+  margin-right: 20px;
+  background-color: rgb(99, 99, 189);
+  color: white;
+  transition: color .5s ease, background .5s ease, border .8s ease;
 }
 
-.editar-boton:hover
-{
-    color: white;
-    background-color: rgb(99, 99, 189);
-    border: none;
-    
+.guardar-boton:hover {
+border: 2px solid rgb(100, 100, 196);
+background-color: white;
+color: black;
+}
+
+
+
+.editar-boton:hover {
+  color: white;
+  background-color: rgb(99, 99, 189);
+  border: none;
+}
+
+.editar-boton:hover + .guardar-boton {
+border: 2px solid rgb(100, 100, 196);
+color: black;
+background-color: white;
 }
