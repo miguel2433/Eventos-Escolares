@@ -1,0 +1,114 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 1fr;
+    grid-template-areas: 
+    "header"
+    "main";
+  }
+  
+  header{
+    grid-area: header;
+  }
+  
+  main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+  }
+  
+  .modificar-card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 95%;
+    flex-direction: column;
+    border: 2px solid rgb(100, 100, 196);
+    border-radius: 20px;
+  }
+
+  .modificar-imagen{
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+
+  .informacion-modificar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(99, 99, 189);
+  }
+
+  .Nombre{
+    margin-right: 20px;
+  }
+
+  .boton-modificar{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.boton{
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.editar-boton{
+  background-color: white;
+  color: black;
+  transition: border .8s ease, background .5s ease, color .5s ease;
+  border: 2px solid rgb(100, 100, 196);
+}
+
+.guardar-boton{
+  border: none;
+  margin-right: 20px;
+  background-color: rgb(99, 99, 189);
+  color: white;
+  transition: color .5s ease, background .5s ease, border .8s ease;
+}
+
+.guardar-boton:hover {
+border: 2px solid rgb(100, 100, 196);
+background-color: white;
+color: black;
+}
+
+
+
+.editar-boton:hover {
+  color: white;
+  background-color: rgb(99, 99, 189);
+  border: none;
+}
+
+.editar-boton:hover + .guardar-boton {
+border: 2px solid rgb(100, 100, 196);
+color: black;
+background-color: white;
+}

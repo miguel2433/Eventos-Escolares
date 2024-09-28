@@ -1813,19 +1813,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gol\\.nuget\\packages\\": {}
+    "/home/et12alumno/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\BackEnd.csproj",
+      "projectUniqueName": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/BackEnd.csproj",
       "projectName": "BackEnd",
-      "projectPath": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\BackEnd.csproj",
-      "packagesPath": "C:\\Users\\gol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\obj\\",
+      "projectPath": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/BackEnd.csproj",
+      "packagesPath": "/home/et12alumno/.nuget/packages/",
+      "outputPath": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/et12alumno/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1843,11 +1843,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1882,7 +1877,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
