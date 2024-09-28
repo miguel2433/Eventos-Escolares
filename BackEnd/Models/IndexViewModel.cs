@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace BackEnd.Models
 {
     public class IndexViewModel
@@ -27,8 +29,11 @@ namespace BackEnd.Models
 
         public string? ImageUrl { get; set; }
 
-        [Required(ErrorMessage = "El campo {0} es requerido")]
-        public required string Contraseña { get; set; }
-
+        [Required(ErrorMessage = "El campo {0} es requerido.")]
+        public string Contraseña { get; set; }
+    
+        [Required(ErrorMessage = "La confirmación de la contraseña es obligatoria.")]
+        [Compare("Contraseña", ErrorMessage = "Las contraseñas no coinciden.")]
+        public string Repetir { get; set; } // Asegúrate de que sea una propiedad
     }
 }

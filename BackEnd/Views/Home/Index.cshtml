@@ -73,8 +73,9 @@
                 <span asp-validation-for="Contraseña" class="text-danger"></span>
               </div>
               <div class="div-inputs-registro">
-                <input class="input-registro" type="password" name="repetir" placeholder="Repetir Contraseña" />
-                <label for="repetir">Repetir Contraseña</label>
+                <input class="input-registro" type="password" asp-for="Repetir" placeholder="Repetir Contraseña" />
+                <label asp-for="Repetir">Repetir Contraseña</label>
+                <span asp-validation-for="Repetir" class="text-danger"></span>
               </div>
             </div>
             <div class="contenedor-registros">
