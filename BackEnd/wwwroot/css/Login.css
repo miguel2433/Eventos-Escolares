@@ -264,6 +264,7 @@ header{
 .div-inputs-registro {
   display: flex;
   justify-content: start;
+  flex-direction: column;
   align-items: center;
   position: relative;
 }
@@ -276,6 +277,12 @@ header{
   opacity: 0;
   transition: all 0.5s ease;
   pointer-events: none;
+}
+
+.div-inputs-registro span{
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(232, 86, 86);
 }
   
 /*Inputs de los Registros*/

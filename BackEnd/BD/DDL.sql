@@ -19,11 +19,12 @@ CREATE TABLE Estudiante (
     idEstudiante INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(100),
     Apellido VARCHAR(100),
-    Division TINYINT UNSIGNED,
-    Año TINYINT UNSIGNED,
+    Division INT ,
+    Año INT ,
     Correo VARCHAR(100),
     Username VARCHAR(100),
-    ImageUrl VARCHAR(255)
+    ImageUrl VARCHAR(255),
+    Contraseña VARCHAR(255)
 );
 
 -- Crear la tabla de participaciones

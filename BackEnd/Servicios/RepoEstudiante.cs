@@ -32,5 +32,20 @@ namespace BackEnd.Servicios
                 }
             }
         }
+
+        public async Task<Estudiante> Obtener(int idEstudiante)
+        {
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                // Este método devolverá solo un estudiante con el id proporcionado
+                return await connection.QuerySingleOrDefaultAsync<Estudiante>(@"
+                    SELECT Nombre, Apellido, Año, Division, Username, Correo
+                    FROM Estudiante
+                    WHERE idEstudiante = @idEstudiante;", 
+                    new { idEstudiante });
+            }
+        }
+
+
     }
 }

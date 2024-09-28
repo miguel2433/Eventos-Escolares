@@ -1,3 +1,5 @@
+@model BackEnd.Models.Estudiante
+
 @{
     ViewData["Title"] = "Perfil";
 }
@@ -10,15 +12,15 @@
       <main>
         <section class="perfil-section">
           <section class="perfil-card">
-            <h1 class="username">Username</h1>
+            <h1 class="username">@Model.Username</h1>
             <img class="image-perfil" src="">
             <div class="info-personal">
                 <div class="nombre-info">
-                  <p>ejemplo@gmail.com</p>
-                  <p>Nombre y apellido</p>
+                  <p>@Model.Correo</p>
+                  <p>@Model.Nombre  @Model.Apellido</p>
                 </div>
                 <div class="curso">
-                  <h1>5-7</h1>
+                  <h1>@Model.Año - @Model.Division</h1>
                 </div>
                 <div class="butons-perfil">
                   <i class='bx bx-cog'></i>

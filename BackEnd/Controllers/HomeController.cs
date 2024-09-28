@@ -15,6 +15,7 @@ public class HomeController : Controller
         this.repoEstudiante = repoEstudiante;
     }
     
+
     public IActionResult Index()
     {
         return View();
@@ -22,11 +23,11 @@ public class HomeController : Controller
         
     [HttpPost]
 
-    public async Task<IActionResult> Index(Estudiante estudiante)
+    public async Task<IActionResult> Index(IndexViewModel indexViewModel)
     {
         if (!ModelState.IsValid)
         {
-            return View(estudiante);
+            return View(indexviewModel);
         }
         // Registra el modelo recibido para depuración
         estudiante.idEstudiante = 1;

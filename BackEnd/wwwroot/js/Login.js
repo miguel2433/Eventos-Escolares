@@ -2,7 +2,8 @@ const Registrate = document.querySelector('.registrate');
 const Registro = document.querySelector('.Registro');
 const RegistroInner = document.querySelector('.Registro-inner');
 const Login = document.querySelector('.section');
-const Salir = document.querySelector('.salir')
+const Salir = document.querySelector('.salir');
+
 let Estado = false;
 
 function ExpansionDeDominio() {
