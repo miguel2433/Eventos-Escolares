@@ -2,8 +2,8 @@ namespace BackEnd.Servicios
 {
     public interface IRepoEstudiante
     {
-         Task Crear (Estudiante estudiante);
+         Task<int> Crear(Estudiante estudiante);
 
-         Task<Estudiante> Obtener(int idEstudiante);
+         Task<Estudiante>? Obtener(int idEstudiante);
     }
 }

@@ -11,9 +11,8 @@ namespace BackEnd.Controllers
         
         public async Task<IActionResult> Perfil()
         {
-            var idEstudiante = 1;
-            var estudiante = await repoEstudiante.Obtener(idEstudiante);
-            return View(estudiante);
+            var estudiante = await repoEstudiante.Obtener(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
+            return View (estudiante);
         }
     }
 }

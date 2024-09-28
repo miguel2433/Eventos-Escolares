@@ -9,7 +9,7 @@ namespace BackEnd.Servicios
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         } 
 
-        public async Task Crear(Estudiante estudiante)
+        public async Task<int> Crear(Estudiante estudiante)
         {
             using (var connection = new MySqlConnection(_connectionString))
             {
@@ -18,33 +18,26 @@ namespace BackEnd.Servicios
                     INSERT INTO Estudiante (Nombre, Apellido, Division, Año, Correo,ImageUrl,Username,Contraseña) 
                     VALUES (@Nombre, @Apellido, @Division, @Año, @Correo,@ImageUrl,@Username,@Contraseña);
                     SELECT LAST_INSERT_ID();";
-
-                try
-                {
                     // Ejecuta la consulta pasando el modelo de estudiante como parámetros
-                    var id = await connection.QuerySingleAsync<int>(query, estudiante);
-                    // Ahora puedes usar el ID si lo necesitas
-                }
-                catch (Exception ex)
-                {
-                    // Registra el error para depurar
-                    Console.WriteLine("Error al insertar datos: " + ex.Message);
-                }
+                var id = await connection.QuerySingleAsync<int>(query, estudiante);
+                // Ahora puedes usar el ID si lo necesitas
+                return id;
+                
             }
         }
-
-        public async Task<Estudiante> Obtener(int idEstudiante)
+        public async Task<Estudiante>? Obtener(int idEstudiante)
         {
             using (var connection = new MySqlConnection(_connectionString))
             {
                 // Este método devolverá solo un estudiante con el id proporcionado
                 return await connection.QuerySingleOrDefaultAsync<Estudiante>(@"
-                    SELECT Nombre, Apellido, Año, Division, Username, Correo
+                    SELECT *
                     FROM Estudiante
                     WHERE idEstudiante = @idEstudiante;", 
                     new { idEstudiante });
             }
         }
+
 
 
     }

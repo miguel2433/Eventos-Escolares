@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace BackEnd.Models
 {
     public class IndexViewModel
@@ -30,12 +25,10 @@ namespace BackEnd.Models
         [Required(ErrorMessage = "El campo {0} es requerido")]
         public required string Username { get; set; }
 
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
         public required string Contraseña { get; set; }
 
-        [HiddenInput(DisplayValue = false)]
-        public int? __Invariant { get; private set; }
     }
 }
