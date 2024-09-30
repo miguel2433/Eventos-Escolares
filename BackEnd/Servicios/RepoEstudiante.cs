@@ -38,7 +38,19 @@ namespace BackEnd.Servicios
             }
         }
 
-
+        public async Task<IEnumerable<Estudiante>> ObtenerPorCondicion(Func<Estudiante, bool> predicate)
+        {
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                // Primero traemos todos los estudiantes
+                var estudiantes = await connection.QueryAsync<Estudiante>(@"
+                    SELECT * 
+                    FROM Estudiante;");
+    
+                // Luego aplicamos el predicado en memoria
+                return estudiantes.Where(predicate).ToList();
+            }
+        }
 
     }
 }

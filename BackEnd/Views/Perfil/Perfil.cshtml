@@ -25,8 +25,8 @@
                 <div class="butons-perfil">
                   <i class='bx bx-cog'></i>
                   <div>
-                    <a class="entrar" href="Login.html">Sign in</a>
-                    <a class="salir" href="Login.html">Sign out</a>
+                     @Html.AntiForgeryToken()
+                    <a asp-controller="Perfil" asp-action="Logout" class="salir">Logout</a>
                   </div>
                 </div>
             </div>

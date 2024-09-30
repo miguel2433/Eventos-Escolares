@@ -7,10 +7,10 @@ namespace BackEnd.Models
         public int idEstudiante { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
-        public required string Nombre { get; set; }
+        public string? Nombre { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
-        public required string Apellido { get; set; }
+        public string? Apellido { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
         [Range(1, 6, ErrorMessage = "El campo {0} debe estar entre {1} y {2}")]
@@ -30,10 +30,10 @@ namespace BackEnd.Models
         public string? ImageUrl { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido.")]
-        public string Contraseña { get; set; }
+        public required string Contraseña { get; set; }
     
         [Required(ErrorMessage = "La confirmación de la contraseña es obligatoria.")]
         [Compare("Contraseña", ErrorMessage = "Las contraseñas no coinciden.")]
-        public string Repetir { get; set; } // Asegúrate de que sea una propiedad
+        public string? Repetir { get; set; } // Asegúrate de que sea una propiedad
     }
 }

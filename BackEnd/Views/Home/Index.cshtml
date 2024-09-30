@@ -11,18 +11,28 @@
 <main class="main-login">
     <section class="section">
       <h1>Inicio de sesion</h1>
-        <form class="divs-container">
+        <form asp-action="Login" asp-controller="Home" class="divs-container">
+          @if (!ViewData.ModelState.IsValid)
+          {
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p class="text-danger">@error.ErrorMessage</p>
+            }
+          }
           <div class="div-inputs">
-            <input class="input" type="text" for="Nombre" placeholder="Nombre de usuario" />
-            <label for="Nombre">Nombre</label>
+            <input class="input" type="text" asp-for="Username" placeholder="Nombre de usuario" />
+            <label asp-for="Username">Nombre</label>
+            <span asp-validation-for="Username"></span>
           </div>
           <div class="div-inputs">
-            <input class="input" type="Correo" for="Correo" placeholder="Correo electronico" />
-            <label for="Correo">Correo</label>
+            <input class="input" type="Correo" asp-for="Correo" placeholder="Correo electronico" />
+            <label asp-for="Correo">Correo</label>
+            <span asp-validation-for="Correo"></span>
           </div>
           <div class="div-inputs">
-            <input class="input" type="password" for="Contraseña" placeholder="Contraseña" />
-            <label for="Contraseña">Contraseña</label>
+            <input class="input" type="password" asp-for="Contraseña" placeholder="Contraseña" />
+            <label asp-for="Contraseña">Contraseña</label>
+            <span asp-validation-for="Contraseña"></span>
           </div>
           <button class="button-login" type="submit">Acceder</button>
         </form>

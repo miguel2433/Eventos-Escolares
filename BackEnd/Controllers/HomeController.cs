@@ -1,3 +1,4 @@
+using BCrypt.Net;
 
 
 /*Reciben las peticiones http del usuario y dan una respuesta(Todos los controladores)*/
@@ -18,9 +19,69 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        if (User.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Evento", "Evento");
+        }
+        else
+        {
+            return View();
+        }
     }
-        
+    [HttpPost]
+    public async Task<IActionResult> Login(IndexViewModel index)
+    {
+        if (ModelState.IsValid)
+        {
+            throw new Exception("nose");
+            // Buscar el usuario existente por correo
+            var usuarioExistente = (await repoEstudiante.ObtenerPorCondicion(estudiante => estudiante.Correo == index.Correo)).FirstOrDefault();
+
+            // Verificar si el usuario existe
+            if (usuarioExistente != null)
+            {
+                if(usuarioExistente.Username == index.Username)
+                {
+                    // Verificar la contraseña
+                    if (BCrypt.Net.BCrypt.Verify(index.Contraseña, usuarioExistente.Contraseña))
+                    {
+                        // Crear las reclamaciones del usuario
+                        var claims = new List<Claim>
+                        {
+                            new Claim(ClaimTypes.NameIdentifier, usuarioExistente.idEstudiante.ToString()),
+                            new Claim(ClaimTypes.Name, usuarioExistente.Username),
+                            new Claim(ClaimTypes.Email, usuarioExistente.Correo)
+                        };
+
+                        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                        var principal = new ClaimsPrincipal(identity);
+
+                        // Iniciar sesión
+                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+                        return RedirectToAction("Evento", "Evento");
+                    }
+                    else
+                    {
+                        // Contraseña incorrecta
+                        ModelState.AddModelError(string.Empty, "Contraseña incorrecta.");
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Nombre de usuario Incorrecto");
+                }
+            }
+            else
+            {
+                // Correo no registrado
+                ModelState.AddModelError(string.Empty, "Correo Electrónico no registrado.");
+            }
+        }
+
+        // Redirigir a Home/Index si el ModelState no es válido o si hay errores
+        return View("index", index);
+    }
+
     [HttpPost]
 
     public async Task<IActionResult> Index(IndexViewModel index)
@@ -41,7 +102,7 @@ public class HomeController : Controller
             Correo = index.Correo,
             Username = index.Username,
             ImageUrl = "",
-            Contraseña = index.Contraseña
+            Contraseña = BCrypt.Net.BCrypt.HashPassword(index.Contraseña)
         };
         
         var idAutoIncrementado = await repoEstudiante.Crear(estudiante);

@@ -17,7 +17,7 @@ namespace BackEnd.Models
 
         public required string Username { get; set; }
 
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
 
         public required string Contraseña { get; set; }
 

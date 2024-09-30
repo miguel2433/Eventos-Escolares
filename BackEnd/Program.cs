@@ -11,7 +11,8 @@ builder.Services.AddTransient<IRepoEstudiante, RepoEstudiante>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
         {
-            options.LoginPath = "/Home/Index"; // Ruta a la página de inicio de sesión // Ruta a la acción de cierre de sesión
+            options.LoginPath = "/Home/Index";
+            options.LogoutPath = "/Home/Index";  // Ruta a la página de inicio de sesión // Ruta a la acción de cierre de sesión
         });
 
 var app = builder.Build();
