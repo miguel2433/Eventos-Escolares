@@ -1,4 +1,4 @@
-﻿@model BackEnd.Models.IndexViewModel
+﻿@model BackEnd.Models.IndexViewModel;
 
 @section Styles {
     <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true"/>
@@ -20,19 +20,19 @@
             }
           }
           <div class="div-inputs">
-            <input class="input" type="text" asp-for="Username" placeholder="Nombre de usuario" />
-            <label asp-for="Username">Nombre</label>
-            <span asp-validation-for="Username"></span>
+            <input class="input" type="text" asp-for="Login.Username" placeholder="Nombre de usuario" />
+            <label asp-for="Login.Username">Nombre</label>
+            <span asp-validation-for="Login.Username"></span>
           </div>
           <div class="div-inputs">
-            <input class="input" type="Correo" asp-for="Correo" placeholder="Correo electronico" />
-            <label asp-for="Correo">Correo</label>
-            <span asp-validation-for="Correo"></span>
+            <input class="input" type="Correo" asp-for="Login.Correo" placeholder="Correo electronico" />
+            <label asp-for="Login.Correo">Correo</label>
+            <span asp-validation-for="Login.Correo"></span>
           </div>
           <div class="div-inputs">
-            <input class="input" type="password" asp-for="Contraseña" placeholder="Contraseña" />
-            <label asp-for="Contraseña">Contraseña</label>
-            <span asp-validation-for="Contraseña"></span>
+            <input class="input" type="password" asp-for="Login.Contrasena" placeholder="Contraseña" />
+            <label asp-for="Login.Contrasena">Contraseña</label>
+            <span asp-validation-for="Login.Contrasena"></span>
           </div>
           <button class="button-login" type="submit">Acceder</button>
         </form>
@@ -54,50 +54,50 @@
           <form asp-controller="Home" asp-action="Index" class="form-registro">
             <div class="contenedor-registros">
               <div class="div-inputs-registro">
-                <input class="input-registro" type="text" asp-for="Nombre" placeholder="Nombre" />
-                <label asp-for="Nombre">Nombre</label>
-                <span asp-validation-for="Nombre" class="text-danger"></span>
+                <input class="input-registro" type="text" asp-for="Register.Nombre" placeholder="Nombre" />
+                <label asp-for="Register.Nombre">Nombre</label>
+                <span asp-validation-for="Register.Nombre" class="text-danger"></span>
               </div>
               <div class="div-inputs-registro">
-                <input class="input-registro" type="text" asp-for="Apellido" placeholder="Apellido" />
-                <label asp-for="Apellido">Apellido</label>
-                <span asp-validation-for="Apellido" class="text-danger"></span>
-              </div>
-            </div>
-            <div class="contenedor-registros">
-              <div class="div-inputs-registro">
-                <input class="input-registro" type="text" asp-for="Username" placeholder="Nombre de usuario" />
-                <label asp-for="Username">Username</label>
-                <span asp-validation-for="Username" class="text-danger"></span>
-              </div>
-              <div class="div-inputs-registro">
-                <input class="input-registro" type="email" asp-for="Correo" placeholder="Correo electronico" />
-                <label asp-for="Correo">Correo</label>
-                <span asp-validation-for="Correo" class="text-danger"></span>
+                <input class="input-registro" type="text" asp-for="Register.Apellido" placeholder="Apellido" />
+                <label asp-for="Register.Apellido">Apellido</label>
+                <span asp-validation-for="Register.Apellido" class="text-danger"></span>
               </div>
             </div>
             <div class="contenedor-registros">
               <div class="div-inputs-registro">
-                <input class="input-registro" type="password" asp-for="Contraseña" placeholder="Contraseña">
-                <label asp-for="Contraseña">Contraseña</label>
-                <span asp-validation-for="Contraseña" class="text-danger"></span>
+                <input class="input-registro" type="text" asp-for="Register.Username" placeholder="Nombre de usuario" />
+                <label asp-for="Register.Username">Username</label>
+                <span asp-validation-for="Register.Username" class="text-danger"></span>
               </div>
               <div class="div-inputs-registro">
-                <input class="input-registro" type="password" asp-for="Repetir" placeholder="Repetir Contraseña" />
-                <label asp-for="Repetir">Repetir Contraseña</label>
-                <span asp-validation-for="Repetir" class="text-danger"></span>
+                <input class="input-registro" type="email" asp-for="Register.Correo" placeholder="Correo electronico" />
+                <label asp-for="Register.Correo">Correo</label>
+                <span asp-validation-for="Register.Correo" class="text-danger"></span>
               </div>
             </div>
             <div class="contenedor-registros">
               <div class="div-inputs-registro">
-                <input class="input-registro anio" type="number" asp-for="Año" placeholder="Año" />
-                <label asp-for="Año">Año</label>
-                <span asp-validation-for="Año" class="text-danger"></span>
+                <input class="input-registro" type="password" asp-for="Register.Contrasena" placeholder="Contraseña">
+                <label asp-for="Register.Contrasena">Contraseña</label>
+                <span asp-validation-for="Register.Contrasena" class="text-danger"></span>
               </div>
               <div class="div-inputs-registro">
-                <input class="input-registro division" type="number" asp-for="Division" placeholder="Division" />
-                <label asp-for="Division">Division</label>
-                <span asp-validation-for="Division" class="text-danger"></span>
+                <input class="input-registro" type="password" asp-for="Register.Repetir" placeholder="Repetir Contraseña" />
+                <label asp-for="Register.Repetir">Repetir Contraseña</label>
+                <span asp-validation-for="Register.Repetir" class="text-danger"></span>
+              </div>
+            </div>
+            <div class="contenedor-registros">
+              <div class="div-inputs-registro">
+                <input class="input-registro anio" type="number" asp-for="Register.Anio" placeholder="Año" />
+                <label asp-for="Register.Anio">Año</label>
+                <span asp-validation-for="Register.Anio" class="text-danger"></span>
+              </div>
+              <div class="div-inputs-registro">
+                <input class="input-registro division" type="number" asp-for="Register.Division" placeholder="Division" />
+                <label asp-for="Register.Division">Division</label>
+                <span asp-validation-for="Register.Division" class="text-danger"></span>
               </div>
             </div>
             <button class="boton-registro" type="submit">Registrate</button>

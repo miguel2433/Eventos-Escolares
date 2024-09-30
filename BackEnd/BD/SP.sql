@@ -9,7 +9,7 @@ CREATE PROCEDURE altaEvento (
     IN unaDescripcion VARCHAR(250)
 )
 BEGIN
-    INSERT INTO Eventos (Nombre, Fecha, Ubicación, Descripción)
+    INSERT INTO Eventos (Nombre, Fecha, Ubicacion, Descripcion)
     VALUES (unNombreEvento,unaFecha, unaUbicacion, unaDescripcion);
 END //
 DELIMITER ;
@@ -19,14 +19,16 @@ DELIMITER //
 CREATE PROCEDURE altaEstudiante (
     IN unNombreEstudiante VARCHAR(100),
     IN unApellidoEstudiante VARCHAR(100),
+    IN unUsername VARCHAR(100),
     IN unaDivision TINYINT UNSIGNED,
     IN unAño TINYINT UNSIGNED,
     IN unCorreo VARCHAR(100),
-    IN unaImageUrl VARCHAR(255)
+    IN unaImageUrl VARCHAR(255),
+    IN unaContrasena VARCHAR(255),
 )
 BEGIN
-    INSERT INTO Estudiantes (Nombre, Apellido,Division, Año, Correo, ImageUrl)
-    VALUES (unNombreEstudiante, unApellidoEstudiante,unaDivision, unAño, unCorreo, unaImageUrl);
+    INSERT INTO Estudiantes (Nombre, Apellido,Username,Division, Anio, Correo, ImageUrl,Contrasena)
+    VALUES (unNombreEstudiante, unApellidoEstudiante,unUsername,unaDivision, unAño, unCorreo, unaImageUrl,unaContrasena);
 END //
 DELIMITER ;
 
@@ -52,7 +54,7 @@ CREATE PROCEDURE altaOrganizador (
     IN unaImageUrl VARCHAR(255)
 )
 BEGIN
-    INSERT INTO Organizadores (Nombre, Correo, Contraseña, ImageUrl)
+    INSERT INTO Organizadores (Nombre, Correo, Contrasena, ImageUrl)
     VALUES (unNombreOrganizador, unCorreoOrganizador, unPasswordOrganizador, unaImageUrl);
 END //
 DELIMITER ;

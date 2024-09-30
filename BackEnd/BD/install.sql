@@ -1,2 +1,1 @@
 SOURCE DDL.sql
-SOURCE SP.sql

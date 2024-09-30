@@ -9,7 +9,7 @@ namespace BackEnd.Models
 
         public required string Apellido { get; set; }
 
-        public int? Año { get; set; }
+        public int? Anio { get; set; }
 
         public int? Division { get; set; }
 
@@ -19,7 +19,7 @@ namespace BackEnd.Models
 
         public string? ImageUrl { get; set; }
 
-        public required string Contraseña { get; set; }
+        public required string Contrasena { get; set; }
 
     }
 }

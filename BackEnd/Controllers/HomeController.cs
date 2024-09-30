@@ -33,17 +33,16 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
-            throw new Exception("nose");
             // Buscar el usuario existente por correo
-            var usuarioExistente = (await repoEstudiante.ObtenerPorCondicion(estudiante => estudiante.Correo == index.Correo)).FirstOrDefault();
+            var usuarioExistente = (await repoEstudiante.ObtenerPorCondicion(estudiante => estudiante.Correo == index.Login.Correo)).FirstOrDefault();
 
             // Verificar si el usuario existe
             if (usuarioExistente != null)
             {
-                if(usuarioExistente.Username == index.Username)
+                if(usuarioExistente.Username == index.Login.Username)
                 {
                     // Verificar la contraseña
-                    if (BCrypt.Net.BCrypt.Verify(index.Contraseña, usuarioExistente.Contraseña))
+                    if (BCrypt.Net.BCrypt.Verify(index.Login.Contrasena, usuarioExistente.Contrasena))
                     {
                         // Crear las reclamaciones del usuario
                         var claims = new List<Claim>
@@ -95,14 +94,14 @@ public class HomeController : Controller
 
         var estudiante = new Estudiante()
         {
-            Nombre = index.Nombre,
-            Apellido = index.Apellido,
-            Año = index.Año,
-            Division = index.Division,
-            Correo = index.Correo,
-            Username = index.Username,
+            Nombre = index.Register.Nombre,
+            Apellido = index.Register.Apellido,
+            Anio = index.Register.Anio,
+            Division = index.Register.Division,
+            Correo = index.Register.Correo,
+            Username = index.Register.Username,
             ImageUrl = "",
-            Contraseña = BCrypt.Net.BCrypt.HashPassword(index.Contraseña)
+            Contrasena = BCrypt.Net.BCrypt.HashPassword(index.Register.Contrasena)
         };
         
         var idAutoIncrementado = await repoEstudiante.Crear(estudiante);

@@ -15,8 +15,8 @@ namespace BackEnd.Servicios
             {
                 // Consulta para insertar un estudiante y obtener el ID recién insertado
                 var query = @"
-                    INSERT INTO Estudiante (Nombre, Apellido, Division, Año, Correo,ImageUrl,Username,Contraseña) 
-                    VALUES (@Nombre, @Apellido, @Division, @Año, @Correo,@ImageUrl,@Username,@Contraseña);
+                    INSERT INTO Estudiante (Nombre, Apellido, Division, Anio, Correo,ImageUrl,Username,Contrasena) 
+                    VALUES (@Nombre, @Apellido, @Division, @Anio, @Correo,@ImageUrl,@Username,@Contrasena);
                     SELECT LAST_INSERT_ID();";
                     // Ejecuta la consulta pasando el modelo de estudiante como parámetros
                 var id = await connection.QuerySingleAsync<int>(query, estudiante);
