@@ -51,3 +51,15 @@ document.addEventListener('DOMContentLoaded', function () {
         invariantInput.remove();
     }
 });
+
+// Crea un observador para detectar cambios en el tamaño del 'section'
+const resizeObserver = new ResizeObserver(() => {
+    // Obtén el nuevo height de la sección
+    const sectionHeight = Login.offsetHeight;
+    
+    // Asigna el mismo height al elemento con la clase 'registro'
+    Registro.style.height = `${sectionHeight}px`;
+});
+
+// Inicia la observación de cambios en el tamaño del 'section'
+resizeObserver.observe(Login);
