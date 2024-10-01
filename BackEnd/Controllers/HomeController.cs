@@ -34,15 +34,15 @@ public class HomeController : Controller
         if (ModelState.IsValid)
         {
             // Buscar el usuario existente por correo
-            var usuarioExistente = (await repoEstudiante.ObtenerPorCondicion(estudiante => estudiante.Correo == index.Login.Correo)).FirstOrDefault();
+            var usuarioExistente = (await repoEstudiante.ObtenerPorCondicion(estudiante => estudiante.Correo == index.Login.CorreoLogin)).FirstOrDefault();
 
             // Verificar si el usuario existe
             if (usuarioExistente != null)
             {
-                if(usuarioExistente.Username == index.Login.Username)
+                if(usuarioExistente.Username == index.Login.UsernameLogin)
                 {
                     // Verificar la contraseña
-                    if (BCrypt.Net.BCrypt.Verify(index.Login.Contrasena, usuarioExistente.Contrasena))
+                    if (BCrypt.Net.BCrypt.Verify(index.Login.ContrasenaLogin, usuarioExistente.Contrasena))
                     {
                         // Crear las reclamaciones del usuario
                         var claims = new List<Claim>
@@ -62,18 +62,18 @@ public class HomeController : Controller
                     else
                     {
                         // Contraseña incorrecta
-                        ModelState.AddModelError(string.Empty, "Contraseña incorrecta.");
+                        ModelState.AddModelError("Login.ContrasenaLogin", "Contraseña incorrecta.");
                     }
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Nombre de usuario Incorrecto");
+                    ModelState.AddModelError("Login.UsernameLogin", "Nombre de usuario Incorrecto");
                 }
             }
             else
             {
                 // Correo no registrado
-                ModelState.AddModelError(string.Empty, "Correo Electrónico no registrado.");
+                ModelState.AddModelError("Login.CorreoLogin", "Correo Electrónico no registrado.");
             }
         }
 

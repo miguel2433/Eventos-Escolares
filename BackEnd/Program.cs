@@ -25,6 +25,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// En el archivo Startup.cs o Program.cs, desactiva la validación de cliente temporalmente
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

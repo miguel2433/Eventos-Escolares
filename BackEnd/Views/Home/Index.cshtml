@@ -11,21 +11,21 @@
 <main class="main-login">
     <section class="section">
       <h1>Inicio de sesion</h1>
-        <form asp-action="Login" asp-controller="Home" class="divs-container">
+        <form asp-antiforgery="true" asp-action="Login" asp-controller="Home" class="divs-container">
           <div class="div-inputs">
-            <input class="input" type="text" asp-for="Login.Username" placeholder="Nombre de usuario" />
-            <label asp-for="Login.Username">Nombre</label>
-            <span asp-validation-for="Login.Username" class="text-danger"></span>
+            <input class="input" type="text" asp-for="Login.UsernameLogin" placeholder="Nombre de usuario" />
+            <label asp-for="Login.UsernameLogin">Nombre</label>
+            <span asp-validation-for="Login.UsernameLogin" class="text-danger"></span>
           </div>
           <div class="div-inputs">
-            <input class="input" type="Correo" asp-for="Login.Correo" placeholder="Correo electronico" />
-            <label asp-for="Login.Correo">Correo</label>
-            <span asp-validation-for="Login.Correo" class="text-danger"></span>
+            <input class="input" type="Correo" asp-for="Login.CorreoLogin" placeholder="Correo electronico" />
+            <label asp-for="Login.CorreoLogin">Correo</label>
+            <span asp-validation-for="Login.CorreoLogin" class="text-danger"></span>
           </div>
           <div class="div-inputs">
-            <input class="input" type="password" asp-for="Login.Contrasena" placeholder="Contraseña" />
-            <label asp-for="Login.Contrasena">Contraseña</label>
-            <span asp-validation-for="Login.Contrasena" class="text-danger"></span>
+            <input class="input" type="password" asp-for="Login.ContrasenaLogin" placeholder="Contraseña" />
+            <label asp-for="Login.ContrasenaLogin">Contraseña</label>
+            <span asp-validation-for="Login.ContrasenaLogin" class="text-danger"></span>
           </div>
           <button class="button-login" type="submit">Acceder</button>
         </form>
@@ -99,3 +99,5 @@
     </section>
   </main>
   <script src="~/js/Login.js"></script>
+
+

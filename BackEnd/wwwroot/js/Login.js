@@ -45,7 +45,7 @@ Salir.addEventListener('click', function() {
 
 document.addEventListener('DOMContentLoaded', function () {
     // Selecciona el elemento con el nombre "__Invariant"
-    var invariantInput = document.querySelector('input[name="__Invariant"]');
+    var invariantInput = document.querySelectorAll('input[name="__Invariant"]');
     console.log('Invariant Input:', invariantInput); // Verifica si el elemento es encontrado
     if (invariantInput) {
         invariantInput.remove();
