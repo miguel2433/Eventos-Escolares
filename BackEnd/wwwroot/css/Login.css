@@ -71,7 +71,7 @@ header{
   text-align: center;
   position: relative;
 }
-  
+
 .div-inputs label{
   position: absolute;
   font-size: 12px;
@@ -281,7 +281,7 @@ header{
   pointer-events: none;
 }
 
-.div-inputs-registro span{
+.text-danger{
   font-size: 12px;
   font-weight: bold;
   color: rgb(232, 86, 86);

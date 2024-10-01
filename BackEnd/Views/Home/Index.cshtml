@@ -15,17 +15,17 @@
           <div class="div-inputs">
             <input class="input" type="text" asp-for="Login.Username" placeholder="Nombre de usuario" />
             <label asp-for="Login.Username">Nombre</label>
-            <span asp-validation-for="Login.Username"></span>
+            <span asp-validation-for="Login.Username" class="text-danger"></span>
           </div>
           <div class="div-inputs">
             <input class="input" type="Correo" asp-for="Login.Correo" placeholder="Correo electronico" />
             <label asp-for="Login.Correo">Correo</label>
-            <span asp-validation-for="Login.Correo"></span>
+            <span asp-validation-for="Login.Correo" class="text-danger"></span>
           </div>
           <div class="div-inputs">
             <input class="input" type="password" asp-for="Login.Contrasena" placeholder="Contraseña" />
             <label asp-for="Login.Contrasena">Contraseña</label>
-            <span asp-validation-for="Login.Contrasena"></span>
+            <span asp-validation-for="Login.Contrasena" class="text-danger"></span>
           </div>
           <button class="button-login" type="submit">Acceder</button>
         </form>
