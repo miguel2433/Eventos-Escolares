@@ -12,13 +12,6 @@
     <section class="section">
       <h1>Inicio de sesion</h1>
         <form asp-action="Login" asp-controller="Home" class="divs-container">
-          @if (!ViewData.ModelState.IsValid)
-          {
-            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-            {
-                <p class="text-danger">@error.ErrorMessage</p>
-            }
-          }
           <div class="div-inputs">
             <input class="input" type="text" asp-for="Login.Username" placeholder="Nombre de usuario" />
             <label asp-for="Login.Username">Nombre</label>
