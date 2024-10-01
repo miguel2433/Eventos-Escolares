@@ -12,15 +12,23 @@
       <main>
         <section class="perfil-section">
           <section class="perfil-card">
+            <h1 class="username morado">Username</p>
             <h1 class="username">@Model.Username</h1>
             <img class="image-perfil" src="">
             <div class="info-personal">
                 <div class="nombre-info">
-                  <p>@Model.Correo</p>
-                  <p>@Model.Nombre  @Model.Apellido</p>
+                  <div>
+                    <p class="correo morado">Correo</p>
+                    <p>@Model.Correo</p>
+                  </div>
+                  <div>
+                    <p class="info morado">Nombre y Apellido</p>
+                    <p>@Model.Nombre  @Model.Apellido</p>
+                  </div>
                 </div>
                 <div class="curso">
-                  <h1>@Model.Anio - @Model.Division</h1>
+                  <h1 class="curso morado">Curso</h1>
+                  <h1 class="curso-alumno">@Model.Anio - @Model.Division</h1>
                 </div>
                 <div class="butons-perfil">
                   <i class='bx bx-cog'></i>

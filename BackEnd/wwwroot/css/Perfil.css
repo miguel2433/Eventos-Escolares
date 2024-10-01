@@ -74,6 +74,17 @@ main{
     font-weight: bold;
 }
 
+.nombre-info div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.morado{
+    color: rgb(100, 100, 196);
+}
 .curso{
     margin-top: 15px;
     width: 100%;
@@ -83,9 +94,9 @@ main{
     flex-direction: column;
 }
 
-.curso h1 {
+.curso-alumno {
     font-size: 40px;
-    color: rgb(100, 100, 196);
+    color: rgb(121, 121, 128);
 }
 
 .butons-perfil{
