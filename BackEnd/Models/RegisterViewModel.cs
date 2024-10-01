@@ -24,7 +24,7 @@ namespace BackEnd.Models
         public int? Division { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es requerido")]
-        [EmailAddress(ErrorMessage = "El formato del correo electrónico no es válido")]
+        [EmailAddress(ErrorMessage = "Revisa el formato del correo")]
         public required string Correo { get; set; }
 
         [Required(ErrorMessage = "El {0} es requerido")]
@@ -35,7 +35,7 @@ namespace BackEnd.Models
         [Required(ErrorMessage = "la Contraseña es requerida.")]
         public required string Contrasena { get; set; }
     
-        [Required(ErrorMessage = "La confirmación de la contraseña es obligatoria.")]
+        [Required(ErrorMessage = "Confirmar contraseñas")]
         [Compare("Contrasena", ErrorMessage = "Las contraseñas no coinciden.")]
         public string? Repetir { get; set; } // Asegúrate de que sea una propiedad
     }
