@@ -54,7 +54,7 @@ body{
     margin-right: 20px;
   }
 
-  .boton-modificar{
+.boton-modificar{
     margin-bottom: 10px;
     margin-top: 20px;
     width: 100%;
@@ -81,7 +81,7 @@ body{
 .editar-boton{
   background-color: white;
   color: black;
-  transition: border .8s ease, background .5s ease, color .5s ease;
+  transition: border .3s ease, background .3s ease, color .3s ease;
   border: 2px solid rgb(100, 100, 196);
 }
 
@@ -90,25 +90,18 @@ body{
   margin-right: 20px;
   background-color: rgb(99, 99, 189);
   color: white;
-  transition: color .5s ease, background .5s ease, border .8s ease;
+  transition: color .3s ease, background .3s ease, border .3s ease;
 }
 
-.guardar-boton:hover {
-border: 2px solid rgb(100, 100, 196);
-background-color: white;
-color: black;
-}
-
-
-
-.editar-boton:hover {
+/* Estilos para el hover */
+.hover-editar {
+  background-color: rgb(100, 100, 196);
   color: white;
-  background-color: rgb(99, 99, 189);
   border: none;
 }
 
-.editar-boton:hover + .guardar-boton {
-border: 2px solid rgb(100, 100, 196);
-color: black;
-background-color: white;
+.hover-guardar {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(100, 100, 196);
 }

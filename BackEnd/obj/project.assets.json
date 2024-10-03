@@ -1858,24 +1858,27 @@
     ]
   },
   "packageFolders": {
-    "/home/et12alumno/.nuget/packages/": {}
+    "C:\\Users\\Lab15-PC01\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/BackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Lab15-PC01\\Desktop\\Eventos-Escolares\\BackEnd\\BackEnd.csproj",
       "projectName": "BackEnd",
-      "projectPath": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/BackEnd.csproj",
-      "packagesPath": "/home/et12alumno/.nuget/packages/",
-      "outputPath": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/obj/",
+      "projectPath": "C:\\Users\\Lab15-PC01\\Desktop\\Eventos-Escolares\\BackEnd\\BackEnd.csproj",
+      "packagesPath": "C:\\Users\\Lab15-PC01\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lab15-PC01\\Desktop\\Eventos-Escolares\\BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/et12alumno/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Lab15-PC01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1888,6 +1891,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1926,7 +1934,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -1935,7 +1943,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "BackEnd depends on MySql.Data (>= 8.0.34) but MySql.Data 8.0.34 was not found. An approximate best match of MySql.Data 8.1.0 was resolved.",
+      "message": "BackEnd depende de MySql.Data (>= 8.0.34), pero no se encontró MySql.Data 8.0.34. Se resolvió una mejor coincidencia aproximada de MySql.Data 8.1.0.",
       "libraryId": "MySql.Data",
       "targetGraphs": [
         "net8.0"
