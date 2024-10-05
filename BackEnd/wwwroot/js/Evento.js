@@ -18,3 +18,28 @@ document.addEventListener('click', function(event) {
         }
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const elementos = document.querySelectorAll('.event-content');
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Añadir la clase 'animar' solo si no tiene la clase
+          if (!entry.target.classList.contains('animar')) {
+            entry.target.classList.add('animar');
+          }
+        } else {
+          // Aquí podrías optar por no quitar la clase, o hacerlo solo cuando quieras reiniciar la animación
+          entry.target.classList.remove('animar');
+        }
+      });
+    }, {
+      threshold: 0.2, // Umbral de visibilidad (20%)
+      rootMargin: "0px 0px 20% 0px" // Esto añade un margen al fondo, lo que asegura mejor detección
+    });
+  
+    elementos.forEach(elemento => {
+      observer.observe(elemento);
+    });
+  });
