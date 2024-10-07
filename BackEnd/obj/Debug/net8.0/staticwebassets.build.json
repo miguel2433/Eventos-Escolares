@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GeCe4+wFa1Q+zycuhA8hCYAm/hJ/PrX/pieSeeUYUG8=",
+  "Hash": "5yeydOjNh0ODRFSTNqI24fmxUcbjA7X19VqAE/Z6VJ4=",
   "Source": "BackEnd",
   "BasePath": "_content/BackEnd",
   "Mode": "Default",
@@ -150,6 +150,25 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/14f1e585-8ca4-439a-9a02-b3f641141722_Gragas.jpg",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "Imagenes/14f1e585-8ca4-439a-9a02-b3f641141722_Gragas.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Imagenes/14f1e585-8ca4-439a-9a02-b3f641141722_Gragas.jpg"
+    },
+    {
       "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/60ed3fdf-dd12-4e47-afcc-f2cec188d29b_IMG-20240419-WA0005.jpeg",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
@@ -186,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Imagenes/76b6b8ff-8777-453f-822e-466d2f1670b3_Resultado.png"
+    },
+    {
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/79e20eb1-13f2-431a-9596-f5b63b50d0b3_7.png",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "Imagenes/79e20eb1-13f2-431a-9596-f5b63b50d0b3_7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Imagenes/79e20eb1-13f2-431a-9596-f5b63b50d0b3_7.png"
     },
     {
       "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/7eae4172-802f-488b-8f8b-4711c8c9b94d_Resultado.png",

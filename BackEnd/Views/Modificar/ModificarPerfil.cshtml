@@ -14,7 +14,8 @@
         <p class="Apellido">@Model.Apellido</p>
     </div>
     <form class="boton-modificar" asp-action="EditarFoto" asp-controller="Modificar" method="post" enctype="multipart/form-data">
-      <input class="boton editar-boton" type="file" name="NuevaFotoPerfil" placeholder="Editar foto" />
+      <label for="NuevaFotoPerfil" class="boton editar-boton">Editar foto</label>
+      <input id="NuevaFotoPerfil" class="boton-file" type="file" name="NuevaFotoPerfil">
       <button class="boton guardar-boton" name="action" value="GuardarCambios" type="submit">Guardar Cambios</button>
     </form>
 
