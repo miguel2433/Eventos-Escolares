@@ -1,9 +1,9 @@
 -- Crear la base de datos
-DROP DATABASE IF EXISTS OrganizacionEventosEscolares;
-CREATE DATABASE OrganizacionEventosEscolares;
+DROP DATABASE IF EXISTS 5to_OrganizacionEventosEscolares;
+CREATE DATABASE 5to_OrganizacionEventosEscolares;
 
 -- Usar la base de datos
-USE OrganizacionEventosEscolares;
+USE 5to_OrganizacionEventosEscolares;
 
 -- Crear la tabla de eventos
 CREATE TABLE Evento (

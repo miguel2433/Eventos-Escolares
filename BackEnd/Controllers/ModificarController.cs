@@ -33,7 +33,7 @@ namespace BackEnd.Controllers
 
                 if(NuevaFotoPerfil != null)
                 {
-                    string uploadsFolder = Path.Combine(_environment.WebRootPath, "imagenes");
+                    string uploadsFolder = Path.Combine(_environment.WebRootPath, "Imagenes");
 
                     uniqueFileName = Guid.NewGuid().ToString() + "_" + NuevaFotoPerfil.FileName;
                     string filePath = Path.Combine(uploadsFolder, uniqueFileName);
