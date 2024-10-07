@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\76b6b8ff-8777-453f-822e-466d2f1670b3_Resultado.png",
+      "PackagePath": "staticwebassets\\Imagenes\\76b6b8ff-8777-453f-822e-466d2f1670b3_Resultado.png"
+    },
+    {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\7eae4172-802f-488b-8f8b-4711c8c9b94d_Resultado.png",
+      "PackagePath": "staticwebassets\\Imagenes\\7eae4172-802f-488b-8f8b-4711c8c9b94d_Resultado.png"
+    },
+    {
       "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\Perfil_modo_claro.png",
       "PackagePath": "staticwebassets\\Imagenes\\Perfil_modo_claro.png"
     },
@@ -23,6 +31,10 @@
     {
       "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\ModificarPerfil.css",
+      "PackagePath": "staticwebassets\\css\\ModificarPerfil.css"
     },
     {
       "Id": "C:\\Users\\gol\\Desktop\\Visual Studio Code\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Navbar.css",

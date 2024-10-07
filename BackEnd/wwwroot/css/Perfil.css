@@ -125,6 +125,8 @@ main{
     height: 40px;
 }
 
+
+
 .bx{
   margin-left: 20px;
   height: 100%;
@@ -169,4 +171,9 @@ main{
 
 .historia-evento{
     grid-area: historial;
+}
+
+.Modificar{
+    text-decoration: none;
+    
 }

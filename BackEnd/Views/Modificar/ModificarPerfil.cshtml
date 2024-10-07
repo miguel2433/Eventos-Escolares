@@ -1,0 +1,23 @@
+@model BackEnd.Models.Estudiante;
+@{
+    var fotoPath = "/imagenes/" + (Model.ImageUrl ?? "default.jpg");
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/ModificarPerfil.css" asp-append-version="true" />
+}
+<main>
+  <section class="modificar-card">
+    <img class="modificar-imagen" src=@fotoPath alt="">
+    <div class="informacion-modificar">
+        <p class="Nombre">@Model.Nombre</p>
+        <p class="Apellido">@Model.Apellido</p>
+    </div>
+    <form class="boton-modificar" asp-action="EditarFoto" asp-controller="Modificar" method="post" enctype="multipart/form-data">
+      <input class="boton editar-boton" type="file" name="NuevaFotoPerfil" placeholder="Editar foto" />
+      <button class="boton guardar-boton" name="action" value="GuardarCambios" type="submit">Guardar Cambios</button>
+    </form>
+
+  </section>
+</main>
+<script src="../js/ModificarPerfil.js"></script>

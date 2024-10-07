@@ -52,5 +52,28 @@ namespace BackEnd.Servicios
             }
         }
 
+        public async Task Update(Estudiante estudiante)
+        {
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                // Consulta para actualizar el estudiante
+                var query = @"
+                    UPDATE Estudiante
+                    SET Nombre = @Nombre,
+                        Apellido = @Apellido,
+                        Division = @Division,
+                        Anio = @Anio,
+                        Correo = @Correo,
+                        ImageUrl = @ImageUrl,
+                        Username = @Username,
+                        Contrasena = @Contrasena
+                    WHERE idEstudiante = @idEstudiante";
+
+                // Ejecuta la consulta de actualización
+                var affectedRows = await connection.ExecuteAsync(query, estudiante);
+            }
+        }
+
     }
 }
+

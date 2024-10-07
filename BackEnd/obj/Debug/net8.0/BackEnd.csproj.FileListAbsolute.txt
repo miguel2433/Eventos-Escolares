@@ -164,3 +164,4 @@ C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\BackEnd.pdb
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\BackEnd.genruntimeconfig.cache
 C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\obj\Debug\net8.0\ref\BackEnd.dll
+C:\Users\gol\Desktop\Visual Studio Code\Eventos-Escolares\BackEnd\bin\Debug\net8.0\appsettings.Development.json

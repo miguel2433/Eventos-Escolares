@@ -1,0 +1,108 @@
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 1fr;
+  grid-template-areas: 
+  "header"
+  "main";
+}
+
+header{
+  grid-area: header;
+}
+
+main{
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 20px;
+}
+
+.modificar-card{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 95%;
+  flex-direction: column;
+  border: 2px solid rgb(100, 100, 196);
+  border-radius: 20px;
+}
+
+.modificar-imagen{
+  margin-top: 15px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.informacion-modificar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(99, 99, 189);
+}
+
+.Nombre{
+  margin-right: 20px;
+}
+
+.boton-modificar{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+.boton{
+  margin-right: 10px;
+  width: auto;
+  height: 40px;
+  outline: none;
+  display: flex;
+  padding: 0 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+.editar-boton{
+background-color: white;
+color: black;
+transition: border .3s ease, background .3s ease, color .3s ease;
+border: 2px solid rgb(100, 100, 196);
+}
+
+.guardar-boton{
+border: none;
+margin-right: 20px;
+background-color: rgb(99, 99, 189);
+color: white;
+transition: color .3s ease, background .3s ease, border .3s ease;
+}
+
+/* Estilos para el hover */
+.hover-editar {
+background-color: rgb(100, 100, 196);
+color: white;
+border: none;
+}
+
+.hover-guardar {
+background-color: white;
+color: black;
+border: 2px solid rgb(100, 100, 196);
+}
