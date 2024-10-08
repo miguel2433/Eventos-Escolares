@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/j1Rf2LozZ5ULk4ESP89g1SKBjOierSWSH0ykWT6Vs0=",
+  "Hash": "F4ytPD5BC7fJW/pvRGdraowObTh82VaqVakTVIY6vFk=",
   "Source": "BackEnd",
   "BasePath": "_content/BackEnd",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Imagenes/9ad46e6b-e40b-47eb-9218-58265793aa1f_sample.png"
+    },
+    {
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/e51ae014-6a3b-4dae-8641-dce6477e74b0_xdx2.png",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "Imagenes/e51ae014-6a3b-4dae-8641-dce6477e74b0_xdx2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Imagenes/e51ae014-6a3b-4dae-8641-dce6477e74b0_xdx2.png"
     },
     {
       "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/js/Evento.js",
