@@ -10,8 +10,8 @@
   <section class="modificar-card">
     <img class="modificar-imagen" src="@fotoPath">
     <div class="informacion-modificar">
-        <p class="Nombre">@Model.Nombre</p>
-        <p class="Apellido">@Model.Apellido</p>
+        <input class="Nombre" type="text" value="@Model.Nombre">
+        <input class="Apellido" type="text" value="@Model.Apellido">
     </div>
     <form class="boton-modificar" asp-action="EditarFoto" asp-controller="Modificar" method="post" enctype="multipart/form-data">
       <label for="NuevaFotoPerfil" class="boton editar-boton">Editar foto</label>
