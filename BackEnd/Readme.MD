@@ -5,7 +5,7 @@
   "AllowedHosts": "*",
   "ConnectionStrings": 
   {
-    "DefaultConnection": "Server=localhost;Database=OrganizacionEventosEscolares;user=tuUsuario;Password=tuPassword;"
+    "DefaultConnection": "Server=localhost;Database=5to_OrganizacionEventosEscolares;user=tuUsuario;Password=tuPassword;"
   },
   "Logging": {
     "LogLevel": {
