@@ -48,6 +48,7 @@ main{
 }
 
 .image-perfil{
+    border: 2px solid black;
     margin-top: 10px;
     height: 200px;
     width: 200px;

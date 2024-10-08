@@ -11,12 +11,13 @@ namespace BackEnd.Controllers
             _repoEstudiante = repoEstudiante;
         }
 
-        public async Task<IActionResult> ModificarPerfil()
+        public async Task<IActionResult> ModificarPerfil(ModificarViewModel modificarViewModel)
         {
             if (User.Identity.IsAuthenticated)
             {
                 var estudiante = await _repoEstudiante.Obtener(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
-                return View(estudiante);
+                modificarViewModel.estudiante = estudiante;
+                return View(modificarViewModel);
             }
             else
             {
@@ -60,13 +61,31 @@ namespace BackEnd.Controllers
         
                     // Actualizar la URL de la imagen del estudiante
                     estudiante.ImageUrl = uniqueFileName;
-                    _repoEstudiante.Update(estudiante);
+                    await _repoEstudiante.Update(estudiante);
                 }
         
                 return RedirectToAction("Perfil", "Perfil");
             }
         
             return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> GuardarCambios(ModificarViewModel modificarViewModel)
+        {   
+            var estudiante = await _repoEstudiante.Obtener(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors);
+                // Ver el contenido de los errores para encontrar el problema
+            }
+            // Asignar los nuevos valores
+            estudiante.Nombre = modificarViewModel.estudiante.Nombre;
+            estudiante.Apellido = modificarViewModel.estudiante.Apellido;
+            estudiante.Username = modificarViewModel.estudiante.Username;
+            // Actualizar los cambios en la base de datos
+            await _repoEstudiante.Update(estudiante);
+            // Redirigir a la vista del perfil
+            return RedirectToAction("Perfil", "Perfil");
         }
     }
 }

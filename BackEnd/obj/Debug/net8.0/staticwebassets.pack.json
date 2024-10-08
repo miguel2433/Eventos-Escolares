@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/81c3be32-920d-46be-98f4-9c616ea57775_xdx2.png",
+      "PackagePath": "staticwebassets/Imagenes/81c3be32-920d-46be-98f4-9c616ea57775_xdx2.png"
+    },
+    {
       "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/9ad46e6b-e40b-47eb-9218-58265793aa1f_sample.png",
       "PackagePath": "staticwebassets/Imagenes/9ad46e6b-e40b-47eb-9218-58265793aa1f_sample.png"
     },

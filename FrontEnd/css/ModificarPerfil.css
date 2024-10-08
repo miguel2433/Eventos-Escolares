@@ -148,17 +148,6 @@ body{
 .bi{
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 
-.icon-contenedor{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top-left-radius:10px;
-  border-bottom-left-radius:10px;
-  margin-left:-15px;
-  height: 33px;
-  width: 33px;
-  color: salmon;
-  background-color: rgb(100, 100, 196);
-}

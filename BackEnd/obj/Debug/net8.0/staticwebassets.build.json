@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GM/H/FhS7LL+QmWDWuG08CjrVZibv/xym6wLXaRUJwI=",
+  "Hash": "/j1Rf2LozZ5ULk4ESP89g1SKBjOierSWSH0ykWT6Vs0=",
   "Source": "BackEnd",
   "BasePath": "_content/BackEnd",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/81c3be32-920d-46be-98f4-9c616ea57775_xdx2.png",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "Imagenes/81c3be32-920d-46be-98f4-9c616ea57775_xdx2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Imagenes/81c3be32-920d-46be-98f4-9c616ea57775_xdx2.png"
     },
     {
       "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/9ad46e6b-e40b-47eb-9218-58265793aa1f_sample.png",
