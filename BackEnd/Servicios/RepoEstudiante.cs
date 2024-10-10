@@ -73,6 +73,13 @@ namespace BackEnd.Servicios
                 var affectedRows = await connection.ExecuteAsync(query, estudiante);
             }
         }
+        public async Task<IEnumerable<Estudiante>> ObtenerTodos()
+        {
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                return await connection.QueryAsync<Estudiante>("SELECT * FROM Estudiante");
+            }
+        }
 
     }
 }

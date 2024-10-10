@@ -9,8 +9,24 @@
       "PackagePath": "staticwebassets/Imagenes/9ad46e6b-e40b-47eb-9218-58265793aa1f_sample.png"
     },
     {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/e51ae014-6a3b-4dae-8641-dce6477e74b0_xdx2.png",
-      "PackagePath": "staticwebassets/Imagenes/e51ae014-6a3b-4dae-8641-dce6477e74b0_xdx2.png"
+      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/b382b144-974c-49c2-8b1d-69a58b985e18_342a4afe72e1ba05d08ca84e47428369_preview_rev_1.png",
+      "PackagePath": "staticwebassets/Imagenes/b382b144-974c-49c2-8b1d-69a58b985e18_342a4afe72e1ba05d08ca84e47428369_preview_rev_1.png"
+    },
+    {
+      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/cf7cfef6-4ecb-4d39-8cf8-310820d91494_342a4afe72e1ba05d08ca84e47428369.jpg",
+      "PackagePath": "staticwebassets/Imagenes/cf7cfef6-4ecb-4d39-8cf8-310820d91494_342a4afe72e1ba05d08ca84e47428369.jpg"
+    },
+    {
+      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/f067bd37-9cf0-4619-a791-75c3f762880e_41AMTEVp8xL._SR600,315_PIWhiteStrip,BottomLeft,0,35_PIStarRatingFOURANDHALF,BottomLeft,360,-6_SR600,315_ZA48,445,290,400,400,AmazonEmberBold,12,4,0,0,5_SCLZZZZZZZ_FMpng_BG255,255,255.png",
+      "PackagePath": "staticwebassets/Imagenes/f067bd37-9cf0-4619-a791-75c3f762880e_41AMTEVp8xL._SR600,315_PIWhiteStrip,BottomLeft,0,35_PIStarRatingFOURANDHALF,BottomLeft,360,-6_SR600,315_ZA48,445,290,400,400,AmazonEmberBold,12,4,0,0,5_SCLZZZZZZZ_FMpng_BG255,255,255.png"
+    },
+    {
+      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/fd0f024f-69fa-4e9a-a31d-41b7d3fd8faf_342a4afe72e1ba05d08ca84e47428369_preview_rev_1.png",
+      "PackagePath": "staticwebassets/Imagenes/fd0f024f-69fa-4e9a-a31d-41b7d3fd8faf_342a4afe72e1ba05d08ca84e47428369_preview_rev_1.png"
+    },
+    {
+      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/CrearEvento.css",
+      "PackagePath": "staticwebassets/css/CrearEvento.css"
     },
     {
       "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/Evento.css",

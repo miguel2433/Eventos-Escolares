@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/et12alumno/Escritorio/Eventos-Escolares/BackEnd
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/Views/CrearEvento/CrearEvento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXJFdmVudG8vQ3JlYXJFdmVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/Views/Evento/Evento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnRvL0V2ZW50by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

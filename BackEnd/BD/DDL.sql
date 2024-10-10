@@ -11,7 +11,8 @@ CREATE TABLE Evento (
     Nombre VARCHAR(100),
     Fecha DATE,
     Ubicacion VARCHAR(100),
-    Descripcion VARCHAR(250)
+    Descripcion VARCHAR(250),
+    ImagenUrl VARCHAR(255)
 );
 
 -- Crear la tabla de estudiantes
