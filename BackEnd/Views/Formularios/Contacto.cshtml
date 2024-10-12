@@ -1,0 +1,44 @@
+@model Estudiante;
+
+@{
+    ViewData ["Title"] = "Contacto";
+}
+
+
+<h1>Formulario de Login</h1>
+
+<form  asp-controller="Formularios" asp-action="Contacto">
+    <div class="mb-3">
+        <label asp-for="Nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" asp-for="Nombre" placeholder="Nombre De Usuario">
+         <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Apellido" class="form-label">Apellido</label>
+        <input type="text" class="form-control" asp-for="Apellido" placeholder="Apellido">
+         <span asp-validation-for="Apellido" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Correo" class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="Correo" placeholder="Email">
+         <span asp-validation-for="Correo" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Anio" class="form-label">Año</label>
+        <input type="number" class="form-control" asp-for="Anio" placeholder="Año">
+        <span asp-validation-for="Anio" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <!-- El asp-for sirve para guardar la informacion vinculada al model en utilizacion -->
+        <label asp-for="Division" class="form-label">Divison</label>
+        <input type="number" class="form-control" asp-for="Division" placeholder="Division">
+        <span asp-validation-for="Division" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <!-- El asp-for sirve para guardar la informacion vinculada al model en utilizacion -->
+        <label asp-for="ImageUrl" class="form-label">ImageUrl</label>
+        <input type="text" class="form-control" asp-for="ImageUrl" placeholder="ImageUrl">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

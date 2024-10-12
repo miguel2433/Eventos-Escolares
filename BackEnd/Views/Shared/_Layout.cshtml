@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BackEnd</title>
+    <link rel="stylesheet" href="~/css/Navbar.css" asp-append-version="true"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Otros elementos del head -->
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header class="header">
+    <nav>
+        <div class="container-logo">
+          <a class="logo" asp-action="Index" asp-controller="Home">Eventos Escolares</a>
+          <div class="container-pages">
+            <a asp-action="Evento" asp-controller="Evento">Eventos</a>
+            <a asp-action="Perfil" asp-controller="Perfil">Perfil</a>
+            <a asp-action="CrearEvento" asp-controller="CrearEvento">Crear Evento</a>
+          </div>
+        </div>
+        <div class="container-icons">
+        </div>
+    </nav>
+  </header>
+  @RenderBody()
+</body>
+</html>

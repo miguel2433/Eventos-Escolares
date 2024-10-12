@@ -1,0 +1,50 @@
+@model BackEnd.Models.Estudiante;
+
+@{
+    var fotoPath = "/Imagenes/" + (Model.ImageUrl ?? "default.jpg");
+}
+@{
+    ViewData["Title"] = "Perfil";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Perfil.css" asp-append-version="true" />
+}
+
+
+      <main>
+        <section class="perfil-section">
+          <section class="perfil-card">
+            <h1 class="username morado">Username</p>
+            <h1 class="username">@Model.Username</h1>
+            <img class="image-perfil" src="@fotoPath">
+            <div class="info-personal">
+                <div class="nombre-info">
+                  <div>
+                    <p class="correo morado">Correo</p>
+                    <p>@Model.Correo</p>
+                  </div>
+                  <div>
+                    <p class="info morado">Nombre y Apellido</p>
+                    <p>@Model.Nombre  @Model.Apellido</p>
+                  </div>
+                </div>
+                <div class="curso">
+                  <h1 class="curso morado">Curso</h1>
+                  <h1 class="curso-alumno">@Model.Anio - @Model.Division</h1>
+                </div>
+                <div class="butons-perfil">
+                  <a class="Modificar" asp-controller="Modificar" asp-action="ModificarPerfil"><i class='bx bx-cog'></i></a>
+                  <div>
+                     @Html.AntiForgeryToken()
+                    <a asp-controller="Perfil" asp-action="Logout" class="salir">Logout</a>
+                  </div>
+                </div>
+            </div>
+          </section>
+        </section>
+        <section class="historial-evento">
+
+        </section>
+      </main>
+    <script src="../js/Perfil.js"></script>

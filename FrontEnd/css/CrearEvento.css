@@ -1,0 +1,159 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 1fr;
+    grid-template-areas: 
+    "header"
+    "main";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.crear-evento-section {
+    width: 95%;
+    max-width: 600px;
+    border: 2px solid rgb(100, 100, 196);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.crear-evento-section h1 {
+    text-align: center;
+    color: rgb(100, 100, 196);
+    margin-bottom: 20px;
+}
+
+.crear-evento-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div-inputs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #d7d7d7;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+}
+
+.input:focus {
+    border-color: rgb(100, 100, 196);
+    outline: none;
+}
+
+.textarea {
+    height: 100px;
+    resize: vertical;
+    max-height: 300px;
+}
+
+.label-animado {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.3s ease all;
+    opacity: 0;
+    transform: translateY(-20px);
+    z-index: 1;
+}
+
+.input:focus ~ .label-animado,
+.input:not(:placeholder-shown) ~ .label-animado {
+    opacity: 1;
+    transform: translateY(-30px);
+    font-size: 14px;
+    color: rgb(100, 100, 196);
+}
+
+.button-crear {
+    background-color: rgb(100, 100, 196);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-crear:hover {
+    background-color: rgb(80, 80, 176);
+}
+
+/* Estilos específicos para el input de tipo date */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/calendar-16.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+
+.crear-evento-form .div-inputs,
+.crear-evento-form .file-input,
+.crear-evento-form .button-crear {
+    width: 100%;
+}
+
+.crear-evento-form .input,
+.crear-evento-form .textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.imagen-evento{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.label-imagen{
+    padding: 10px 20px;
+    background-color: rgb(100, 100, 196);
+    color: white;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px;
+
+    transition: background-color 0.3s ease;
+}
+
+.label-imagen:hover{
+    background-color: rgb(80, 80, 176);
+}
+
+.input-file{
+    display: none;
+}
