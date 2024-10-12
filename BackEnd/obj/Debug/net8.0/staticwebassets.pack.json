@@ -1,12 +1,24 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\5b14d934-07d5-43f9-a657-40048a82cd0a_IMG-20240419-WA0005.jpeg",
+      "PackagePath": "staticwebassets\\Imagenes\\5b14d934-07d5-43f9-a657-40048a82cd0a_IMG-20240419-WA0005.jpeg"
+    },
+    {
       "Id": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\7d9d308c-7055-4398-988d-2d4bd9fe87b4_3.jpeg",
       "PackagePath": "staticwebassets\\Imagenes\\7d9d308c-7055-4398-988d-2d4bd9fe87b4_3.jpeg"
     },
     {
+      "Id": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\94811245-5f6f-4e05-a374-dc5ccaa74db2_Resultado.png",
+      "PackagePath": "staticwebassets\\Imagenes\\94811245-5f6f-4e05-a374-dc5ccaa74db2_Resultado.png"
+    },
+    {
       "Id": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\cd4284ae-371a-4475-9851-9875ceb9211c_4.jpeg",
       "PackagePath": "staticwebassets\\Imagenes\\cd4284ae-371a-4475-9851-9875ceb9211c_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\dd11fa3d-421e-4042-bcb3-1ff3319b0cbe_Resultado.png",
+      "PackagePath": "staticwebassets\\Imagenes\\dd11fa3d-421e-4042-bcb3-1ff3319b0cbe_Resultado.png"
     },
     {
       "Id": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\CrearEvento.css",

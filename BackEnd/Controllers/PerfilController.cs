@@ -15,12 +15,10 @@ namespace BackEnd.Controllers
             if (User.Identity.IsAuthenticated)
             {
                 var estudiante = await repoEstudiante.Obtener(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
-                return View (estudiante);
+                return View(estudiante);
             }
-            else
-            {
-                return RedirectToAction("Index", "Home");
-            }
+            // Devuelve una vista o redirección en caso de que el usuario no esté autenticado
+            return RedirectToAction("Index", "Home"); // o cualquier otra acción que consideres apropiada
         }
 
         [HttpGet]

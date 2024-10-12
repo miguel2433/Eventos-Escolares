@@ -3,10 +3,12 @@ namespace BackEnd.Controllers
     public class CrearEventoController : Controller
     {
         private readonly IRepoEvento _repoEvento;
+        private readonly IRepoEstudiante _repoEstudiante;
         private readonly IWebHostEnvironment _env;
 
-        public CrearEventoController(IRepoEvento repoEvento, IWebHostEnvironment env)
+        public CrearEventoController(IRepoEstudiante repoEstudiante, IRepoEvento repoEvento, IWebHostEnvironment env)
         {
+            _repoEstudiante = repoEstudiante ?? throw new ArgumentNullException(nameof(repoEstudiante));
             _repoEvento = repoEvento ?? throw new ArgumentNullException(nameof(repoEvento));
             _env = env ?? throw new ArgumentNullException(nameof(env));
         }
@@ -28,9 +30,25 @@ namespace BackEnd.Controllers
         {
             if (ModelState.IsValid)
             {
+                var userIdClaim = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (userIdClaim == null)
+                {
+                    ModelState.AddModelError("", "El usuario no está autenticado.");
+                    return View(model);
+                }
+
+                var EstudianteActual = await _repoEstudiante.Obtener(Convert.ToInt32(userIdClaim));
+                if (EstudianteActual == null)
+                {
+                    ModelState.AddModelError("", "Estudiante no encontrado.");
+                    return View(model);
+                }
+
                 var evento = model.evento;
+                evento.idEstudiante = EstudianteActual.idEstudiante;
+
                 var imagen = model.Imagen;
-                string uniqueFileName = null; // Declarar aquí
+                string uniqueFileName = null;
 
                 if (imagen != null && imagen.Length > 0)
                 {
@@ -41,7 +59,7 @@ namespace BackEnd.Controllers
                         Directory.CreateDirectory(uploadsFolder);
                     }
 
-                    uniqueFileName = Guid.NewGuid().ToString() + "_" + imagen.FileName; // Usar 'imagen'
+                    uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(imagen.FileName);
                     string filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
                     try
@@ -51,18 +69,25 @@ namespace BackEnd.Controllers
                             await imagen.CopyToAsync(fileStream);
                         }
 
-                        // Asignar la URL de la imagen al evento
-                        model.evento.ImagenUrl =  uniqueFileName; // Asegúrate de que la URL sea correcta
+                        evento.ImagenUrl = uniqueFileName;
                     }
                     catch (Exception ex)
                     {
                         ModelState.AddModelError("", "Error al guardar la imagen: " + ex.Message);
-                        return View(model); // Regresar a la vista con errores
+                        return View(model);
                     }
                 }
 
-                var idAutoIncrementado = await _repoEvento.Crear(evento);
-                evento.idEvento = idAutoIncrementado;
+                try
+                {
+                    var idAutoIncrementado = await _repoEvento.Crear(evento);
+                    evento.idEvento = idAutoIncrementado;
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "Error al crear el evento: " + ex.Message);
+                    return View(model);
+                }
 
                 return RedirectToAction("Evento", "Evento");
             }

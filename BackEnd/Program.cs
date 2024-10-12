@@ -2,6 +2,7 @@ using BackEnd.Servicios;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,12 +10,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IRepoEstudiante, RepoEstudiante>();
 builder.Services.AddTransient<IRepoEvento, RepoEvento>();
+// Register the DbContext
+builder.Services.AddSingleton<DbContext>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
         {
             options.LoginPath = "/Home/Index";
             options.LogoutPath = "/Home/Index";  // Ruta a la página de inicio de sesión // Ruta a la acción de cierre de sesión
         });
+
 
 var app = builder.Build();
 
@@ -25,8 +29,6 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
-// En el archivo Startup.cs o Program.cs, desactiva la validación de cliente temporalmente
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

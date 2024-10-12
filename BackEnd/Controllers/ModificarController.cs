@@ -35,9 +35,9 @@ namespace BackEnd.Controllers
                 var estudiante = await _repoEstudiante.Obtener(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
         
                 // Si el estudiante ya tiene una foto guardada, eliminarla
-                if (!string.IsNullOrEmpty(estudiante.ImageUrl))
+                if (!string.IsNullOrEmpty(estudiante.ImagenUrl))
                 {
-                    string existingFilePath = Path.Combine(_environment.WebRootPath, "Imagenes", estudiante.ImageUrl);
+                    string existingFilePath = Path.Combine(_environment.WebRootPath, "Imagenes", estudiante.ImagenUrl);
         
                     if (System.IO.File.Exists(existingFilePath))
                     {
@@ -60,7 +60,7 @@ namespace BackEnd.Controllers
                     }
         
                     // Actualizar la URL de la imagen del estudiante
-                    estudiante.ImageUrl = uniqueFileName;
+                    estudiante.ImagenUrl = uniqueFileName;
                     await _repoEstudiante.Update(estudiante);
                 }
         

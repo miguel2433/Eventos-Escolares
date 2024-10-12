@@ -1,7 +1,7 @@
 @model BackEnd.Models.Estudiante;
 
 @{
-    var fotoPath = "/Imagenes/" + (Model.ImageUrl ?? "default.jpg");
+    var fotoPath = Model != null ? "/Imagenes/" + (Model.ImagenUrl ?? "default.jpg") : "/Imagenes/default.jpg";
 }
 @{
     ViewData["Title"] = "Perfil";
@@ -14,8 +14,10 @@
 
       <main>
         <section class="perfil-section">
-          <section class="perfil-card">
-            <h1 class="username morado">Username</p>
+          <section class="perfil-card"> 
+            @if (Model != null)
+            {
+            <h1 class="username morado">Username</h1>
             <h1 class="username">@Model.Username</h1>
             <img class="image-perfil" src="@fotoPath">
             <div class="info-personal">
@@ -41,6 +43,12 @@
                   </div>
                 </div>
             </div>
+            }
+            else
+            {
+                <h1 class="no-cuenta">¿No tienes una cuenta?</h1>
+                <a class="button-login" asp-controller="Home" asp-action="Index">Logueate</a>
+            }
           </section>
         </section>
         <section class="historial-evento">

@@ -19,14 +19,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        if (User.Identity.IsAuthenticated)
-        {
-            return RedirectToAction("Evento", "Evento");
-        }
-        else
-        {
-            return View();
-        }
+        return View();
     }
     [HttpPost]
     public async Task<IActionResult> Login(IndexViewModel index)
@@ -100,7 +93,7 @@ public class HomeController : Controller
             Division = index.Register.Division,
             Correo = index.Register.Correo,
             Username = index.Register.Username,
-            ImageUrl = "",
+            ImagenUrl = "",
             Contrasena = BCrypt.Net.BCrypt.HashPassword(index.Register.Contrasena)
         };
         

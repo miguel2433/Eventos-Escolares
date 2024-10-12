@@ -2,6 +2,7 @@ namespace BackEnd.Models
 {
     public class Evento
     {
+        public int idEstudiante { get; set; }
         public int idEvento { get; set; }
         public required string Nombre { get; set; }
         public DateTime Fecha { get; set; }
