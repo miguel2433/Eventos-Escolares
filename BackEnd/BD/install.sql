@@ -1,1 +1,0 @@
-SOURCE DDL.sql
