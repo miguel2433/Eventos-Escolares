@@ -43,6 +43,10 @@
             {
                 <p style="color: red; font-size: 12px;">@TempData["ErrorMessage"]</p>
             }
+            @if (TempData["ErrorCreador"] != null)
+            {
+                <p style="color: red; font-size: 12px;">@TempData["ErrorCreador"]</p>
+            }
         </form>
         <form asp-controller="EventoCompleto" asp-action="Desinscribirse" method="post"> 
             <input type="hidden" name="idEvento" value="@Model.Evento.idEvento">

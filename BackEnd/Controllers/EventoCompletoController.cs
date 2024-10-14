@@ -61,7 +61,11 @@ public class EventoCompletoController : Controller
             TempData["ErrorMessage"] = "Ya estás inscrito en este evento";
             return RedirectToAction("EventoCompleto", new { id = idEvento });
         }
-
+        if(EstudianteActual.idEstudiante == EstudianteCreador.idEstudiante)
+        {
+            TempData["ErrorCreador"] = "Tu eres el creador";
+            return RedirectToAction("EventoCompleto" ,new {id = idEvento});
+        }
         var participacion = new Participacion
         {
             idEvento = idEvento,
