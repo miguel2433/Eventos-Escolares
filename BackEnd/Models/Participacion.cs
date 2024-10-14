@@ -5,7 +5,7 @@ namespace BackEnd.Models
     {
         public int idParticipacion {get; set;}
 
-        public int idEventos {get; set;}
+        public int idEvento {get; set;}
 
         public int idEstudiante {get; set;}
     }

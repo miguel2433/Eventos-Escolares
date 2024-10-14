@@ -1,0 +1,47 @@
+@model BackEnd.Models.EventoCompletoViewModel
+
+@{
+    ViewData["Title"] = "Detalles del Evento";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/EventoCompleto.css" />
+}
+
+<main>
+    <h1>@Model.Evento.Nombre</h1>
+    <img src="/Imagenes/@(Model.Evento.ImagenUrl ?? "default.jpg")" alt="@Model.Evento.Nombre" />
+    <p>Descripcion: @Model.Evento.Descripcion</p>
+    <p>Fecha: @Model.Evento.Fecha.ToShortDateString()</p>
+    <p>Ubicación: @Model.Evento.Ubicacion</p> 
+
+    <section>
+        <h2>Detalles del Organizador</h2>
+        <p>Nombre: @Model.Estudiante.Nombre</p>
+        <p>Email: @Model.Estudiante.Correo</p>
+        <!-- Agrega más atributos del organizador según sea necesario -->
+        <button class="boton">Lista de Participantes</button>
+    </section> 
+    <section>
+        <form asp-controller="EventoCompleto" asp-action="Inscribirse" method="post">
+            <input type="hidden" name="idEvento" value="@Model.Evento.idEvento" />
+            <button class="boton" type="submit">Inscribirse</button>
+        </form> 
+        <button class="boton">Cancelar Inscripción</button>
+    </section>
+</main>
+<script src="~/js/EventoCompleto.js"></script>
+
+<div id="participantsModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Lista de Participantes</h2>
+        <ul id="participantsList">
+            @foreach (var participante in Model.Estudiantes)
+            {
+                <li>@participante.Nombre @participante.Apellido</li>
+            }
+        </ul>
+    </div>
+</div>
+
+

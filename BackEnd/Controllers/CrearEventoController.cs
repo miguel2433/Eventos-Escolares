@@ -37,7 +37,7 @@ namespace BackEnd.Controllers
                     return View(model);
                 }
 
-                var EstudianteActual = await _repoEstudiante.Obtener(Convert.ToInt32(userIdClaim));
+                var EstudianteActual = await _repoEstudiante.ObtenerPorId(Convert.ToInt32(userIdClaim));
                 if (EstudianteActual == null)
                 {
                     ModelState.AddModelError("", "Estudiante no encontrado.");

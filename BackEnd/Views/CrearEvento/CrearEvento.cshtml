@@ -30,6 +30,7 @@
                 <div class="div-inputs">
                     <label class="label-imagen" asp-for="Imagen">Selecciona la imagen</label>
                     <input class="input-file" type="file" asp-for="Imagen">
+                    <span asp-validation-for="Imagen"></span>
                 </div>
                 <button class="button-crear" type="submit">Crear Evento</button>
             </form>

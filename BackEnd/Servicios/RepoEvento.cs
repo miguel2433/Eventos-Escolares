@@ -22,7 +22,7 @@ namespace BackEnd.Servicios
             }
         }
 
-        public async Task<Evento>? Obtener(int idEvento)
+        public async Task<Evento>? ObtenerPorId(int idEvento)
         {
             using (var connection = _dbContext.CreateConnection())
             {

@@ -4,7 +4,7 @@ namespace BackEnd.Servicios
     {
          Task<int> Crear(Estudiante estudiante);
 
-         Task<Estudiante>? Obtener(int idEstudiante);
+         Task<Estudiante>? ObtenerPorId(int idEstudiante);
 
          Task<IEnumerable<Estudiante>> ObtenerPorCondicion(Func<Estudiante, bool> predicate);
 

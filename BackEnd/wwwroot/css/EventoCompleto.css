@@ -1,0 +1,124 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20vw 1fr;
+    grid-template-rows: 10vh 1fr;
+    grid-template-areas: 
+    "header header"
+    "main main";
+  }
+
+header{
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+section h2 {
+    color: #444;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+section p {
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+}
+
+.boton {
+    background-color: rgb(100, 100, 196);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.boton:hover {
+    background-color: rgb(80, 80, 176);
+}
+
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Mantener en su lugar */
+    z-index: 1; /* Colocar encima */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    overflow: auto; /* Habilitar scroll si es necesario */
+    background-color: rgb(0,0,0); /* Color de respaldo */
+    background-color: rgba(0,0,0,0.4); /* Negro con opacidad */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% desde arriba y centrado */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Puede ser más o menos, dependiendo del tamaño de la pantalla */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -104,14 +104,13 @@ C:/Users/gol/Desktop/Visual Studio Code/Eventos-Escolares/BackEnd/bin/Debug/net8
 /home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
 /home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Windows.Extensions.dll
 /home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/bin/Debug/net8.0/appsettings.Development.json
-C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\appsettings.json
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\appsettings.json
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\BackEnd.staticwebassets.runtime.json
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\BackEnd.exe
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\BackEnd.deps.json
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\BackEnd.runtimeconfig.json
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\BackEnd.dll
-C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\BackEnd.pdb
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\Dapper.dll
@@ -154,4 +153,5 @@ C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\obj\Debug\net8.0\BackEnd.dll
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\obj\Debug\net8.0\refint\BackEnd.dll
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\obj\Debug\net8.0\BackEnd.pdb
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\obj\Debug\net8.0\BackEnd.genruntimeconfig.cache
+C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\bin\Debug\net8.0\BackEnd.pdb
 C:\Users\gol\Desktop\Eventos-Escolares\BackEnd\obj\Debug\net8.0\ref\BackEnd.dll

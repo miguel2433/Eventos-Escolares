@@ -28,14 +28,16 @@
     {
         foreach (var evento in Model)
         {
-            // Crear el fotopath para cada evento
             var fotoPath = "/Imagenes/" + (evento.ImagenUrl ?? "default.jpg");
             <div class="event-content">
                 <div class="image-container">
                     <img class="image-event" src="@fotoPath" alt="@evento.Nombre" />
                 </div>
                 <div class="description-event">
-                    <p>@evento.Descripcion</p>
+                    <a class="titulo-evento" asp-controller="EventoCompleto" asp-action="EventoCompleto" asp-route-id="@evento.idEvento">
+                        @evento.Nombre
+                    </a>
+                    <p class="descripcion">@evento.Descripcion</p>
                     <p class="fecha-evento">@evento.Fecha.ToShortDateString()</p>
                 </div>
             </div>

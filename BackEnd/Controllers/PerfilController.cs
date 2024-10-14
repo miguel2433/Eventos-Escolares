@@ -14,7 +14,7 @@ namespace BackEnd.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                var estudiante = await repoEstudiante.Obtener(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
+                var estudiante = await repoEstudiante.ObtenerPorId(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
                 return View(estudiante);
             }
             // Devuelve una vista o redirección en caso de que el usuario no esté autenticado

@@ -22,7 +22,7 @@ namespace BackEnd.Servicios
             }
         }
 
-        public async Task<Estudiante>? Obtener(int idEstudiante)
+        public async Task<Estudiante>? ObtenerPorId(int idEstudiante)
         {
             using (var connection = _dbContext.CreateConnection())
             {
@@ -71,5 +71,6 @@ namespace BackEnd.Servicios
                 return await connection.QueryAsync<Estudiante>("SELECT * FROM Estudiante");
             }
         }
+
     }
 }

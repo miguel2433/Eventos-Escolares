@@ -120,9 +120,11 @@ header{
 .event-content {
   margin-top: 15px;
   margin-left: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "image description";
   border: 2px solid #d7d7d7;
   height: 200px;
   width: 800px;
@@ -132,8 +134,7 @@ header{
 }
 
 .image-container {
-  height: 200px;
-  width: 200px;
+  grid-area: image;
   border-right: 2px solid #d7d7d7;
   display: flex;
   align-items: center;
@@ -161,8 +162,8 @@ header{
 
 .image-event{
   border: none;
-  height: 80%;
-  width: 80%;
+  height: 180px;
+  width: 180px;
   background-color: brown;
   border-radius: 100%;
   display: flex;
@@ -171,15 +172,32 @@ header{
 }
 
 .description-event{
+  grid-area: description;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25% 65% 10%;
   font-size: 13px;
   font-weight: 600;
-  text-align: justify;
-  padding: 0px 12px;
+  text-align: center;
+  padding: 0px 18px;
   transition: all .5s ease;
 }
 
-.fecha-evento{
+.titulo-evento{
   margin-top: 10px;
+  text-align: center;
+  color: rgb(100, 100, 196);
+  text-decoration: none;
+}
+
+.descripcion{
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(121, 121, 121);
+}
+
+.fecha-evento{
+  text-align: end;
   color: rgb(100, 100, 196);
 }
 

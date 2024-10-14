@@ -4,7 +4,7 @@ namespace BackEnd.Servicios
     {
         Task<int> Crear(Evento evento);
 
-        Task<Evento>? Obtener(int idEvento);
+        Task<Evento>? ObtenerPorId(int idEvento);
 
         Task<IEnumerable<Evento>> ObtenerPorCondicion(Func<Evento, bool> predicate);
     

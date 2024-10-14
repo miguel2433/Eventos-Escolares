@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IRepoEstudiante, RepoEstudiante>();
 builder.Services.AddTransient<IRepoEvento, RepoEvento>();
+builder.Services.AddTransient<IRepoParticipacion, RepoParticipacion>();
 // Register the DbContext
 builder.Services.AddSingleton<DbContext>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

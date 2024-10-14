@@ -15,7 +15,7 @@ namespace BackEnd.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                var estudiante = await _repoEstudiante.Obtener(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
+                var estudiante = await _repoEstudiante.ObtenerPorId(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
                 modificarViewModel.estudiante = estudiante;
                 return View(modificarViewModel);
             }
@@ -32,7 +32,7 @@ namespace BackEnd.Controllers
                 string uniqueFileName = null;
         
                 // Obtener al estudiante actual
-                var estudiante = await _repoEstudiante.Obtener(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
+                var estudiante = await _repoEstudiante.ObtenerPorId(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
         
                 // Si el estudiante ya tiene una foto guardada, eliminarla
                 if (!string.IsNullOrEmpty(estudiante.ImagenUrl))
@@ -72,7 +72,7 @@ namespace BackEnd.Controllers
         [HttpPost]
         public async Task<IActionResult> GuardarCambios(ModificarViewModel modificarViewModel)
         {   
-            var estudiante = await _repoEstudiante.Obtener(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
+            var estudiante = await _repoEstudiante.ObtenerPorId(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
             if (!ModelState.IsValid)
             {
                 var errors = ModelState.Values.SelectMany(v => v.Errors);
