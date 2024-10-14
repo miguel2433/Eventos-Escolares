@@ -47,6 +47,16 @@ public class EventoCompletoController : Controller
     public async Task<IActionResult> Inscribirse(int idEvento)
     {
         var EstudianteActual = await _repoEstudiante.ObtenerPorId(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
+
+        // Verificar si la participación ya existe
+        var existingParticipation = await _repoParticipacion.ObtenerPorCondicion("idEvento = @idEvento AND idEstudiante = @idEstudiante", new { idEvento, idEstudiante = EstudianteActual.idEstudiante });
+
+        if (existingParticipation.Any())
+        {
+            // Si la participación existe, podrías querer mostrar un mensaje o redirigir
+            return RedirectToAction("EventoCompleto", new { id = idEvento });
+        }
+
         var participacion = new Participacion
         {
             idEvento = idEvento,
@@ -92,5 +102,6 @@ public class EventoCompletoController : Controller
 
 
 }
+
 
 

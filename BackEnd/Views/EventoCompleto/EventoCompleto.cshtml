@@ -4,7 +4,7 @@
     ViewData["Title"] = "Detalles del Evento";
 }
 @section Styles {
-    <link rel="stylesheet" href="~/css/EventoCompleto.css" />
+    <link rel="stylesheet" href="~/css/EventoCompleto.css" asp-append-version="true"/>
 }
 
 <main>
@@ -40,7 +40,7 @@
                 <div class="participante">
                     <p class="participante-name">@participante.Nombre </p>
                     <p class="participante-lastname">@participante.Apellido</p>
-                    <img class="participante-image" src="/Imagenes/@(participante.ImagenUrl ?? "default.jpg")" alt="@participante.Nombre" />
+                    <img class="participante-image" src="/Imagenes/@(participante.ImagenUrl ?? "default.jpg")" />
                 </div>
             }
     </div>
