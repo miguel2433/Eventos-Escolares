@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uuUkFOtQJwbc1yrWPUFBhDr9Gzd3dlB7v0rzBmQ//7A=",
+  "Hash": "Byf/ovVjGB78qXSRA+X0TW83YIcwzOdrTHY8DpYe9no=",
   "Source": "BackEnd",
   "BasePath": "_content/BackEnd",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BackEnd\\wwwroot",
+      "Name": "BackEnd/wwwroot",
       "Source": "BackEnd",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\CrearEvento.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/CrearEvento.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "css/CrearEvento.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\CrearEvento.css"
+      "OriginalItemSpec": "wwwroot/css/CrearEvento.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\custom.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/custom.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "css/custom.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\custom.css"
+      "OriginalItemSpec": "wwwroot/css/custom.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Evento.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/Evento.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "css/Evento.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Evento.css"
+      "OriginalItemSpec": "wwwroot/css/Evento.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\EventoCompleto.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/EventoCompleto.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "css/EventoCompleto.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\EventoCompleto.css"
+      "OriginalItemSpec": "wwwroot/css/EventoCompleto.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Login.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/Login.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "css/Login.css",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Login.css"
+      "OriginalItemSpec": "wwwroot/css/Login.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\ModificarPerfil.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/ModificarPerfil.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "css/ModificarPerfil.css",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\ModificarPerfil.css"
+      "OriginalItemSpec": "wwwroot/css/ModificarPerfil.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Navbar.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/Navbar.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "css/Navbar.css",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Navbar.css"
+      "OriginalItemSpec": "wwwroot/css/Navbar.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\Perfil.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/Perfil.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "css/Perfil.css",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Perfil.css"
+      "OriginalItemSpec": "wwwroot/css/Perfil.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\favicon.ico",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/favicon.ico",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\381a3e1a-3000-4702-b676-2f140c38afd9_3.jpeg",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/381a3e1a-3000-4702-b676-2f140c38afd9_3.jpeg",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/381a3e1a-3000-4702-b676-2f140c38afd9_3.jpeg",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\381a3e1a-3000-4702-b676-2f140c38afd9_3.jpeg"
+      "OriginalItemSpec": "wwwroot/Imagenes/381a3e1a-3000-4702-b676-2f140c38afd9_3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\45a70e6b-ea3f-4459-b77e-705631e1b6d4_Giuli_Dorso_DNI-min.jpg",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/45a70e6b-ea3f-4459-b77e-705631e1b6d4_Giuli_Dorso_DNI-min.jpg",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/45a70e6b-ea3f-4459-b77e-705631e1b6d4_Giuli_Dorso_DNI-min.jpg",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\45a70e6b-ea3f-4459-b77e-705631e1b6d4_Giuli_Dorso_DNI-min.jpg"
+      "OriginalItemSpec": "wwwroot/Imagenes/45a70e6b-ea3f-4459-b77e-705631e1b6d4_Giuli_Dorso_DNI-min.jpg"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\5b14d934-07d5-43f9-a657-40048a82cd0a_IMG-20240419-WA0005.jpeg",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/5b14d934-07d5-43f9-a657-40048a82cd0a_IMG-20240419-WA0005.jpeg",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/5b14d934-07d5-43f9-a657-40048a82cd0a_IMG-20240419-WA0005.jpeg",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\5b14d934-07d5-43f9-a657-40048a82cd0a_IMG-20240419-WA0005.jpeg"
+      "OriginalItemSpec": "wwwroot/Imagenes/5b14d934-07d5-43f9-a657-40048a82cd0a_IMG-20240419-WA0005.jpeg"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\5fcae487-629e-4990-912e-5050e76172f3_IMG-20240419-WA0005.jpeg",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/5fcae487-629e-4990-912e-5050e76172f3_IMG-20240419-WA0005.jpeg",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/5fcae487-629e-4990-912e-5050e76172f3_IMG-20240419-WA0005.jpeg",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\5fcae487-629e-4990-912e-5050e76172f3_IMG-20240419-WA0005.jpeg"
+      "OriginalItemSpec": "wwwroot/Imagenes/5fcae487-629e-4990-912e-5050e76172f3_IMG-20240419-WA0005.jpeg"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\7d9d308c-7055-4398-988d-2d4bd9fe87b4_3.jpeg",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/7d9d308c-7055-4398-988d-2d4bd9fe87b4_3.jpeg",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/7d9d308c-7055-4398-988d-2d4bd9fe87b4_3.jpeg",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\7d9d308c-7055-4398-988d-2d4bd9fe87b4_3.jpeg"
+      "OriginalItemSpec": "wwwroot/Imagenes/7d9d308c-7055-4398-988d-2d4bd9fe87b4_3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\94811245-5f6f-4e05-a374-dc5ccaa74db2_Resultado.png",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/94811245-5f6f-4e05-a374-dc5ccaa74db2_Resultado.png",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/94811245-5f6f-4e05-a374-dc5ccaa74db2_Resultado.png",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\94811245-5f6f-4e05-a374-dc5ccaa74db2_Resultado.png"
+      "OriginalItemSpec": "wwwroot/Imagenes/94811245-5f6f-4e05-a374-dc5ccaa74db2_Resultado.png"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\a7ae0449-fb38-416f-b51e-db4b230f6fb3_i still searching you.png",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/a7ae0449-fb38-416f-b51e-db4b230f6fb3_i still searching you.png",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/a7ae0449-fb38-416f-b51e-db4b230f6fb3_i still searching you.png",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\a7ae0449-fb38-416f-b51e-db4b230f6fb3_i still searching you.png"
+      "OriginalItemSpec": "wwwroot/Imagenes/a7ae0449-fb38-416f-b51e-db4b230f6fb3_i still searching you.png"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\b6b66384-cb43-43ab-920a-668cb6542106_Resultado.png",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/b6b66384-cb43-43ab-920a-668cb6542106_Resultado.png",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/b6b66384-cb43-43ab-920a-668cb6542106_Resultado.png",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\b6b66384-cb43-43ab-920a-668cb6542106_Resultado.png"
+      "OriginalItemSpec": "wwwroot/Imagenes/b6b66384-cb43-43ab-920a-668cb6542106_Resultado.png"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\c468916d-2cf9-420c-827c-2d7f8a0cebaf_Resultado.png",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/c468916d-2cf9-420c-827c-2d7f8a0cebaf_Resultado.png",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/c468916d-2cf9-420c-827c-2d7f8a0cebaf_Resultado.png",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\c468916d-2cf9-420c-827c-2d7f8a0cebaf_Resultado.png"
+      "OriginalItemSpec": "wwwroot/Imagenes/c468916d-2cf9-420c-827c-2d7f8a0cebaf_Resultado.png"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\cd4284ae-371a-4475-9851-9875ceb9211c_4.jpeg",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/cd4284ae-371a-4475-9851-9875ceb9211c_4.jpeg",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/cd4284ae-371a-4475-9851-9875ceb9211c_4.jpeg",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\cd4284ae-371a-4475-9851-9875ceb9211c_4.jpeg"
+      "OriginalItemSpec": "wwwroot/Imagenes/cd4284ae-371a-4475-9851-9875ceb9211c_4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\dd11fa3d-421e-4042-bcb3-1ff3319b0cbe_Resultado.png",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/dd11fa3d-421e-4042-bcb3-1ff3319b0cbe_Resultado.png",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/dd11fa3d-421e-4042-bcb3-1ff3319b0cbe_Resultado.png",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\dd11fa3d-421e-4042-bcb3-1ff3319b0cbe_Resultado.png"
+      "OriginalItemSpec": "wwwroot/Imagenes/dd11fa3d-421e-4042-bcb3-1ff3319b0cbe_Resultado.png"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\e3f3c5c5-17ad-43ab-af66-70f7b450eea0_image.png",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/e3f3c5c5-17ad-43ab-af66-70f7b450eea0_image.png",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/e3f3c5c5-17ad-43ab-af66-70f7b450eea0_image.png",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\e3f3c5c5-17ad-43ab-af66-70f7b450eea0_image.png"
+      "OriginalItemSpec": "wwwroot/Imagenes/e3f3c5c5-17ad-43ab-af66-70f7b450eea0_image.png"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\e61ae24b-5022-41f6-994d-82c8c5d17fd3_3.jpeg",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/e61ae24b-5022-41f6-994d-82c8c5d17fd3_3.jpeg",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/e61ae24b-5022-41f6-994d-82c8c5d17fd3_3.jpeg",
       "AssetKind": "All",
@@ -432,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\e61ae24b-5022-41f6-994d-82c8c5d17fd3_3.jpeg"
+      "OriginalItemSpec": "wwwroot/Imagenes/e61ae24b-5022-41f6-994d-82c8c5d17fd3_3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "Imagenes/e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png",
       "AssetKind": "All",
@@ -451,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Imagenes\\e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png"
+      "OriginalItemSpec": "wwwroot/Imagenes/e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\js\\Evento.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/js/Evento.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "js/Evento.js",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Evento.js"
+      "OriginalItemSpec": "wwwroot/js/Evento.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\js\\EventoCompleto.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/js/EventoCompleto.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "js/EventoCompleto.js",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\EventoCompleto.js"
+      "OriginalItemSpec": "wwwroot/js/EventoCompleto.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\js\\Login.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/js/Login.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "js/Login.js",
       "AssetKind": "All",
@@ -508,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Login.js"
+      "OriginalItemSpec": "wwwroot/js/Login.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\js\\site.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/js/site.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -527,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -546,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -565,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -584,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -603,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -622,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -717,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -736,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1059,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1078,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1116,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1135,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1211,13 +1211,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1230,13 +1230,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1249,13 +1249,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1268,13 +1268,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1287,13 +1287,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1306,13 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1325,13 +1325,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1344,13 +1344,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1363,13 +1363,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1382,13 +1382,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1401,13 +1401,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1420,13 +1420,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1439,13 +1439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1458,13 +1458,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1477,13 +1477,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1496,13 +1496,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1515,13 +1515,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1534,13 +1534,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1553,13 +1553,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1572,13 +1572,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1591,13 +1591,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
       "BasePath": "_content/BackEnd",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1610,7 +1610,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     }
   ]
 }
