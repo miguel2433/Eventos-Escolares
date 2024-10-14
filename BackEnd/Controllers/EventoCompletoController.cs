@@ -47,6 +47,11 @@ public class EventoCompletoController : Controller
     public async Task<IActionResult> Inscribirse(int idEvento)
     {
         var EstudianteActual = await _repoEstudiante.ObtenerPorId(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
+        
+        
+        var eventoActual = await _repoEvento.ObtenerPorId(idEvento);
+        var EstudianteCreador =  await _repoEstudiante.ObtenerPorId(eventoActual.idEstudiante);
+
 
         // Verificar si la participación ya existe
         var existingParticipation = await _repoParticipacion.ObtenerPorCondicion("idEvento = @idEvento AND idEstudiante = @idEstudiante", new { idEvento, idEstudiante = EstudianteActual.idEstudiante });
@@ -91,7 +96,7 @@ public class EventoCompletoController : Controller
 
         var EventoCompletoModel = new EventoCompletoViewModel
         {
-            Estudiante = EstudianteActual,
+            Estudiante = EstudianteCreador,
             Evento = evento,
             Estudiantes = estudiantes
         };
@@ -99,6 +104,51 @@ public class EventoCompletoController : Controller
         return View("EventoCompleto", EventoCompletoModel);
     }
 
+    [HttpPost]
+    public async Task<IActionResult> Desinscribirse(int idEvento)
+    {
+        // Obtener el estudiante actual a partir del token
+        var EstudianteActual = await _repoEstudiante.ObtenerPorId(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
+
+
+        // Obtener al creador del evento
+
+        // Verificar si la participación existe
+        var existingParticipation = await _repoParticipacion.ObtenerPorCondicion("idEvento = @idEvento AND idEstudiante = @idEstudiante", new { idEvento, idEstudiante = EstudianteActual.idEstudiante });
+
+        // Si existe la participación, eliminarla de la base de datos
+        if (existingParticipation.Any())
+        {
+            await _repoParticipacion.EliminarParticipacionPorId(idEvento, EstudianteActual.idEstudiante);
+        }
+
+        // Obtener el evento y las participaciones restantes
+        var evento = await _repoEvento.ObtenerPorId(idEvento);
+        var participaciones = await _repoParticipacion.ObtenerPorCondicion("idEvento = @idEvento", new { idEvento = idEvento });
+        var EstudianteCreador =  await _repoEstudiante.ObtenerPorId(evento.idEstudiante);
+
+        // Convertir las participaciones restantes en estudiantes
+        var estudiantes = new List<Estudiante>();
+        foreach (var p in participaciones)
+        {
+            var e = await _repoEstudiante.ObtenerPorId(p.idEstudiante);
+            if (e != null)
+            {
+                estudiantes.Add(e);
+            }
+        }
+
+        // Crear el modelo actualizado
+        var EventoCompletoModel = new EventoCompletoViewModel
+        {
+            Estudiante = EstudianteCreador,
+            Evento = evento,
+            Estudiantes = estudiantes
+        };
+
+        // Redirigir a la vista actualizada
+        return View("EventoCompleto", EventoCompletoModel);
+    }
 
 
 }

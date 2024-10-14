@@ -53,9 +53,19 @@ namespace BackEnd.Servicios
         {
             using (var connection = _contexto.CreateConnection())
             {
-                var query = "SELECT * FROM Participaciones WHERE idEvento = @idEvento AND idEstudiante = @idEstudiante";
+                var query = @"SELECT * FROM Participaciones WHERE idEvento = @idEvento AND idEstudiante = @idEstudiante";
                 return await connection.QuerySingleOrDefaultAsync<Participacion>(query, new { idEvento, idEstudiante });
             }
         }
+
+        public async Task EliminarParticipacionPorId(int idEvento, int idEstudiante)
+        {
+            using (var connection = _contexto.CreateConnection())
+            {
+                var query = @"DELETE FROM Participaciones WHERE idEvento = @idEvento AND idEstudiante = @idEstudiante";
+                await connection.ExecuteAsync(query, new { idEvento, idEstudiante });
+            }
+        }
+
     }
 }

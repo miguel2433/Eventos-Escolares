@@ -43,8 +43,11 @@
             {
                 <p style="color: red; font-size: 12px;">@TempData["ErrorMessage"]</p>
             }
-        </form> 
-        <button class="boton">Cancelar Inscripción</button>
+        </form>
+        <form asp-controller="EventoCompleto" asp-action="Desinscribirse" method="post"> 
+            <input type="hidden" name="idEvento" value="@Model.Evento.idEvento">
+            <button class="boton">Cancelar Inscripción</button>
+        </form>
     </section>
 </main>
 <script src="~/js/EventoCompleto.js"></script>
