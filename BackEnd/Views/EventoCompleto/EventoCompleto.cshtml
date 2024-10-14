@@ -35,12 +35,14 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <h2>Lista de Participantes</h2>
-        <ul id="participantsList">
             @foreach (var participante in Model.Estudiantes)
             {
-                <li>@participante.Nombre @participante.Apellido</li>
+                <div class="participante">
+                    <p class="participante-name">@participante.Nombre </p>
+                    <p class="participante-lastname">@participante.Apellido</p>
+                    <img class="participante-image" src="/Imagenes/@(participante.ImagenUrl ?? "default.jpg")" alt="@participante.Nombre" />
+                </div>
             }
-        </ul>
     </div>
 </div>
 

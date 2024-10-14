@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DjdKAycOHDHxCoEe+1Bo7J7GACcq1qqEq5eGe4VUIw4=",
+  "Hash": "mwrD3rriy14L2FxZ+AbmGWU4nQv6gGfyoXl4AEdUuEQ=",
   "Source": "BackEnd",
   "BasePath": "_content/BackEnd",
   "Mode": "Default",
@@ -376,6 +376,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\e3f3c5c5-17ad-43ab-af66-70f7b450eea0_image.png"
+    },
+    {
+      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "Imagenes/e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png"
     },
     {
       "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\js\\Evento.js",

@@ -56,7 +56,7 @@ namespace BackEnd.Servicios
                         Division = @Division,
                         Anio = @Anio,
                         Correo = @Correo,
-                        ImageUrl = @ImageUrl,
+                        ImagenUrl = @ImagenUrl,
                         Username = @Username,
                         Contrasena = @Contrasena
                     WHERE idEstudiante = @idEstudiante";

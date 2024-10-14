@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\Imagenes\\e3f3c5c5-17ad-43ab-af66-70f7b450eea0_image.png"
     },
     {
+      "Id": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png",
+      "PackagePath": "staticwebassets\\Imagenes\\e82cd0dd-6223-4042-ae2c-b97c7b526ee0_Resultado.png"
+    },
+    {
       "Id": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\css\\CrearEvento.css",
       "PackagePath": "staticwebassets\\css\\CrearEvento.css"
     },
