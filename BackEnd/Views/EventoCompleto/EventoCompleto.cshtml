@@ -8,16 +8,30 @@
 }
 
 <main>
-    <h1>@Model.Evento.Nombre</h1>
+    <h1 class="titulo">@Model.Evento.Nombre</h1>
     <img src="/Imagenes/@(Model.Evento.ImagenUrl ?? "default.jpg")" alt="@Model.Evento.Nombre" />
-    <p>Descripcion: @Model.Evento.Descripcion</p>
-    <p>Fecha: @Model.Evento.Fecha.ToShortDateString()</p>
-    <p>Ubicación: @Model.Evento.Ubicacion</p> 
-
+    <div class="descripcion-container">
+        <p class="descripcion" >Descripcion: </p>
+        <p class="data" >@Model.Evento.Descripcion</p>
+    </div>
+    <div class="descripcion-container">
+        <p class="descripcion" >Fecha: </p>
+        <p class="data" >@Model.Evento.Fecha.ToShortDateString()</p>
+    </div>
+    <div class="descripcion-container">
+        <p class="descripcion" >Ubicación: </p>
+        <p class="data" >@Model.Evento.Ubicacion</p>
+    </div>
     <section>
-        <h2>Detalles del Organizador</h2>
-        <p>Nombre: @Model.Estudiante.Nombre</p>
-        <p>Email: @Model.Estudiante.Correo</p>
+        <h2 class="titulo" >Detalles del Organizador</h2>
+        <div class="descripcion-container">
+            <p class="descripcion" >Nombre: </p>
+            <p class="data" >@Model.Estudiante.Nombre</p>
+        </div>
+        <div class="descripcion-container">
+            <p class="descripcion" >Email: </p>
+            <p class="data" >@Model.Estudiante.Correo</p>
+        </div>
         <!-- Agrega más atributos del organizador según sea necesario -->
         <button class="boton">Lista de Participantes</button>
     </section> 
@@ -25,6 +39,10 @@
         <form asp-controller="EventoCompleto" asp-action="Inscribirse" method="post">
             <input type="hidden" name="idEvento" value="@Model.Evento.idEvento" />
             <button class="boton" type="submit">Inscribirse</button>
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <p style="color: red; font-size: 12px;">@TempData["ErrorMessage"]</p>
+            }
         </form> 
         <button class="boton">Cancelar Inscripción</button>
     </section>
@@ -45,5 +63,4 @@
             }
     </div>
 </div>
-
 

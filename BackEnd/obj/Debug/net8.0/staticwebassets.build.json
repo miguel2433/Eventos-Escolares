@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VdsOk2WvsXLC22qUuc2L35cQBMmYrq214NMQtlUusfY=",
+  "Hash": "uuUkFOtQJwbc1yrWPUFBhDr9Gzd3dlB7v0rzBmQ//7A=",
   "Source": "BackEnd",
   "BasePath": "_content/BackEnd",
   "Mode": "Default",
@@ -302,6 +302,25 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\94811245-5f6f-4e05-a374-dc5ccaa74db2_Resultado.png"
     },
     {
+      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\a7ae0449-fb38-416f-b51e-db4b230f6fb3_i still searching you.png",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "Imagenes/a7ae0449-fb38-416f-b51e-db4b230f6fb3_i still searching you.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\a7ae0449-fb38-416f-b51e-db4b230f6fb3_i still searching you.png"
+    },
+    {
       "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\b6b66384-cb43-43ab-920a-668cb6542106_Resultado.png",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
@@ -319,6 +338,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\b6b66384-cb43-43ab-920a-668cb6542106_Resultado.png"
+    },
+    {
+      "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\c468916d-2cf9-420c-827c-2d7f8a0cebaf_Resultado.png",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "Imagenes/c468916d-2cf9-420c-827c-2d7f8a0cebaf_Resultado.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\c468916d-2cf9-420c-827c-2d7f8a0cebaf_Resultado.png"
     },
     {
       "Identity": "C:\\Users\\gol\\Desktop\\Eventos-Escolares\\BackEnd\\wwwroot\\Imagenes\\cd4284ae-371a-4475-9851-9875ceb9211c_4.jpeg",

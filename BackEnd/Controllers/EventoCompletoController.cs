@@ -12,8 +12,8 @@ public class EventoCompletoController : Controller
     }
     public async Task<IActionResult> EventoCompleto(int id)
     {
-        var EstudianteActual = await _repoEstudiante.ObtenerPorId(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
         var evento = await _repoEvento.ObtenerPorId(id);
+        var EstudianteCreador = await _repoEstudiante.ObtenerPorId(evento.idEstudiante);
         var participaciones = await _repoParticipacion.ObtenerPorCondicion("idEvento = @idEvento", new { idEvento = id });
 
         // Convertir las participaciones en estudiantes
@@ -29,7 +29,7 @@ public class EventoCompletoController : Controller
 
         var EventoCompletoModel = new EventoCompletoViewModel
         {
-            Estudiante = EstudianteActual,
+            Estudiante = EstudianteCreador,
             Evento = evento,
             Estudiantes = estudiantes
         };
@@ -53,7 +53,7 @@ public class EventoCompletoController : Controller
 
         if (existingParticipation.Any())
         {
-            // Si la participación existe, podrías querer mostrar un mensaje o redirigir
+            TempData["ErrorMessage"] = "Ya estás inscrito en este evento";
             return RedirectToAction("EventoCompleto", new { id = idEvento });
         }
 
