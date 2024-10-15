@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SYXy4U633AZyQM+t6pCzqmuiDYAEBl9NVAVWKLOYm4E=",
+  "Hash": "yZQdCZp2nT+fZVndh2rI3UpM7aI90vfLvv3ta0WE1ig=",
   "Source": "BackEnd",
   "BasePath": "_content/BackEnd",
   "Mode": "Default",
@@ -207,6 +207,25 @@
       "OriginalItemSpec": "wwwroot/Imagenes/15b7655d-648b-45cd-b3e1-fb04a6d4f917_github-icon-2.svg"
     },
     {
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/2c288a20-f162-48b0-a451-be3d3f30326b_Captura de pantalla de 2024-03-22 15-14-31.png",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "Imagenes/2c288a20-f162-48b0-a451-be3d3f30326b_Captura de pantalla de 2024-03-22 15-14-31.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Imagenes/2c288a20-f162-48b0-a451-be3d3f30326b_Captura de pantalla de 2024-03-22 15-14-31.png"
+    },
+    {
       "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/66ea38ab-e175-4a43-9076-d92a9bb3196d_Web 1920 – 1.png",
       "SourceId": "BackEnd",
       "SourceType": "Discovered",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Imagenes/96b503c4-cb67-4329-bf56-357e3e411ded_favicon.ico"
+    },
+    {
+      "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/bab0d189-edaa-4894-b520-886c17b810f1_Captura de pantalla de 2024-09-09 11-53-22.png",
+      "SourceId": "BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/",
+      "BasePath": "_content/BackEnd",
+      "RelativePath": "Imagenes/bab0d189-edaa-4894-b520-886c17b810f1_Captura de pantalla de 2024-09-09 11-53-22.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Imagenes/bab0d189-edaa-4894-b520-886c17b810f1_Captura de pantalla de 2024-09-09 11-53-22.png"
     },
     {
       "Identity": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/js/Evento.js",
