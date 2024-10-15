@@ -9,5 +9,7 @@ namespace BackEnd.Servicios
         Task<IEnumerable<Evento>> ObtenerPorCondicion(Func<Evento, bool> predicate);
     
         Task<IEnumerable<Evento>> ObtenerTodos();
+
+        Task Eliminar(int idEvento);
     }
 }

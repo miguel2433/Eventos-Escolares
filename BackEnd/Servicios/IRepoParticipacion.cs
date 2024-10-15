@@ -11,5 +11,7 @@ namespace BackEnd.Servicios
          Task<Participacion>? ObtenerPorEventoYEstudiante(int idEvento, int idEstudiante);
 
          Task EliminarParticipacionPorId(int idEstudiante, int idEvento);
+
+         Task EliminarParticipacionPorCondicion(string condicionSql, object parametros);
     }
 }

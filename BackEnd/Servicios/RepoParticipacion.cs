@@ -67,5 +67,14 @@ namespace BackEnd.Servicios
             }
         }
 
+        public async Task EliminarParticipacionPorCondicion(string condicionSql, object parametros)
+        {
+            using (var connection = _contexto.CreateConnection())
+            {
+                var query = $"DELETE FROM Participaciones WHERE {condicionSql}";
+                await connection.ExecuteAsync(query, parametros);
+            }
+        }
+
     }
 }

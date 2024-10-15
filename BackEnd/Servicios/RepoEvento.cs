@@ -69,5 +69,13 @@ namespace BackEnd.Servicios
                 return await connection.QueryAsync<Evento>("SELECT * FROM Evento");
             }
         }
+
+        public async Task Eliminar(int idEvento)
+        {
+            using (var connection = _dbContext.CreateConnection())
+            {
+                await connection.ExecuteAsync("DELETE FROM Evento WHERE idEvento = @idEvento", new { idEvento });
+            }
+        }
     }
 }

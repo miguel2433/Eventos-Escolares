@@ -6,3 +6,4 @@ global using Microsoft.AspNetCore.Authorization.Infrastructure;
 global using BackEnd.Models;
 global using Microsoft.AspNetCore.Authentication;
 global using System.Security.Claims;
+global using System.Linq;

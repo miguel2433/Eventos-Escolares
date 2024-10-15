@@ -129,7 +129,7 @@ header{
   height: 200px;
   width: 800px;
   border-radius: 20px;
-  transition: all 0.8s ease; /* Añadimos transición al contenedor */
+  transition: all 0.4s ease; /* Añadimos transición al contenedor */
   will-change: translate, scale, opacity; /* Usamos will-change en transform y opacity */
 }
 
@@ -145,8 +145,9 @@ header{
 /* Aplica los estilos al hacer hover en event-content */
 .event-content:hover {
   border-color: rgb(100, 100, 196); /* Cambia el borde del contenedor */
-  transform: scale(1.03); /* Aumenta ligeramente el tamaño del contenedor */
+  transform: scale(1.01); /* Aumenta ligeramente el tamaño del contenedor */
   cursor: pointer;
+  box-shadow: 7px 0 15px 5px rgba(100, 100, 196, 0.39);
 }
 
 /* Aplica los estilos al hijo image-container cuando se hace hover en event-content */
@@ -155,7 +156,7 @@ header{
 }
 
 .event-content:hover .description-event {
-  transform: scale(1.03); /* Aumenta el tamaño de la imagen */
+  transform: scale(1.01); /* Aumenta el tamaño de la imagen */
   color: rgb(71, 71, 138);
 }
 
@@ -199,6 +200,7 @@ header{
 .fecha-evento{
   text-align: end;
   color: rgb(100, 100, 196);
+  margin-bottom: 10px;
 }
 
 @keyframes revelar {
@@ -217,4 +219,26 @@ header{
 
 .event-content.animar {
   animation: revelar .7s linear both;
+}
+
+.div-eliminar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.boton-eliminar {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.boton-eliminar:hover {
+  background-color: #ff3333;
 }
