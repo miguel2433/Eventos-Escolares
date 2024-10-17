@@ -169,13 +169,9 @@ main{
     color: white;
 }
 
-.historia-evento{
-    grid-area: historial;
-}
 
 .Modificar{
     text-decoration: none;
-    
 }
 
 .no-cuenta{
@@ -198,3 +194,106 @@ main{
     background-color: rgb(80, 80, 176);
 }
 
+
+.historial-evento{
+    margin: 25px;
+    height: 93%;
+    width: 90%;
+    grid-area: historial;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid rgb(100, 100, 196);
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+
+
+
+.event-content {
+    margin-top: 15px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "image description";
+    border: 2px solid #d7d7d7;
+    height: 200px;
+    width: 800px;
+    border-radius: 20px;
+    transition: all 0.4s ease; /* Añadimos transición al contenedor */
+    will-change: translate, scale, opacity; /* Usamos will-change en transform y opacity */
+  }
+  
+  .image-container {
+    grid-area: image;
+    border-right: 2px solid #d7d7d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease; /* Añadimos transición a la imagen */
+  }
+  
+  /* Aplica los estilos al hacer hover en event-content */
+  .event-content:hover {
+    border-color: rgb(100, 100, 196); /* Cambia el borde del contenedor */
+    transform: scale(1.01); /* Aumenta ligeramente el tamaño del contenedor */
+    cursor: pointer;
+    box-shadow: 7px 0 15px 5px rgba(100, 100, 196, 0.39);
+  }
+  
+  /* Aplica los estilos al hijo image-container cuando se hace hover en event-content */
+  .event-content:hover .image-container {
+    border-color: rgb(100, 100, 196); /* Cambia el borde de la imagen */
+  }
+  
+  .event-content:hover .description-event {
+    transform: scale(1.01); /* Aumenta el tamaño de la imagen */
+    color: rgb(71, 71, 138);
+  }
+  
+  
+  .image-event{
+    border: none;
+    height: 180px;
+    width: 180px;
+    background-color: brown;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .description-event{
+    grid-area: description;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 65% 10%;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 18px;
+    transition: all .5s ease;
+  }
+  
+  .titulo-evento{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(100, 100, 196);
+    text-decoration: none;
+  }
+  
+  .descripcion{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(121, 121, 121);
+  }
+  
+  .fecha-evento{
+    text-align: end;
+    color: rgb(100, 100, 196);
+    margin-bottom: 10px;
+  }

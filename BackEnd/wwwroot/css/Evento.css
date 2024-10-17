@@ -24,7 +24,7 @@ header{
 .aside-evento{
     grid-area: aside;
     position: sticky;
-    top: 0;
+    top: 10vh;
     width: 100%;
     height: 90vh;
     display: flex;

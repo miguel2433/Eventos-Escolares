@@ -2,23 +2,41 @@ namespace BackEnd.Controllers
 {
     public class PerfilController : Controller
     {
-        private readonly IRepoEstudiante repoEstudiante;
+        private readonly IRepoEstudiante _repoEstudiante;
+        private readonly IRepoParticipacion _repoParticipacion;
+        private readonly IRepoEvento _repoEvento;
 
-        public PerfilController(IRepoEstudiante repoEstudiante)
+        public PerfilController(IRepoEstudiante repoEstudiante, IRepoParticipacion repoParticipacion, IRepoEvento repoEvento)
         {
-            this.repoEstudiante = repoEstudiante;
+            _repoEstudiante = repoEstudiante;
+            _repoParticipacion = repoParticipacion;
+            _repoEvento = repoEvento;
         }
-        
 
         public async Task<IActionResult> Perfil()
         {
-            if (User.Identity.IsAuthenticated)
+            var idEstudiante = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var estudiante = await _repoEstudiante.ObtenerPorId(idEstudiante);
+            
+            var participaciones = await _repoParticipacion.ObtenerPorCondicion("idEstudiante = @idEstudiante", new { idEstudiante });
+            var eventosInscritos = new List<Evento>();
+            
+            foreach (var participacion in participaciones)
             {
-                var estudiante = await repoEstudiante.ObtenerPorId(Convert.ToInt32(HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value));
-                return View(estudiante);
+                var evento = await _repoEvento.ObtenerPorId(participacion.idEvento);
+                if (evento != null)
+                {
+                    eventosInscritos.Add(evento);
+                }
             }
-            // Devuelve una vista o redirección en caso de que el usuario no esté autenticado
-            return RedirectToAction("Index", "Home"); // o cualquier otra acción que consideres apropiada
+
+            var viewModel = new PerfilViewModel
+            {
+                Estudiante = estudiante,
+                EventosInscritos = eventosInscritos
+            };
+
+            return View(viewModel);
         }
 
         [HttpGet]

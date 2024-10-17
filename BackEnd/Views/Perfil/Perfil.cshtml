@@ -1,7 +1,7 @@
-@model BackEnd.Models.Estudiante;
+@model BackEnd.Models.PerfilViewModel;
 
 @{
-    var fotoPath = Model != null ? "/Imagenes/" + (Model.ImagenUrl ?? "default.jpg") : "/Imagenes/default.jpg";
+    var fotoPath = Model.Estudiante != null ? "/Imagenes/" + (Model.Estudiante.ImagenUrl ?? "default.jpg") : "/Imagenes/default.jpg";
 }
 @{
     ViewData["Title"] = "Perfil";
@@ -15,25 +15,25 @@
       <main>
         <section class="perfil-section">
           <section class="perfil-card"> 
-            @if (Model != null)
+            @if (Model.Estudiante != null)
             {
             <h1 class="username morado">Username</h1>
-            <h1 class="username">@Model.Username</h1>
+            <h1 class="username">@Model.Estudiante.Username</h1>
             <img class="image-perfil" src="@fotoPath">
             <div class="info-personal">
                 <div class="nombre-info">
                   <div>
                     <p class="correo morado">Correo</p>
-                    <p>@Model.Correo</p>
+                    <p>@Model.Estudiante.Correo</p>
                   </div>
                   <div>
                     <p class="info morado">Nombre y Apellido</p>
-                    <p>@Model.Nombre  @Model.Apellido</p>
+                    <p>@Model.Estudiante.Nombre  @Model.Estudiante.Apellido</p>
                   </div>
                 </div>
                 <div class="curso">
                   <h1 class="curso morado">Curso</h1>
-                  <h1 class="curso-alumno">@Model.Anio - @Model.Division</h1>
+                  <h1 class="curso-alumno">@Model.Estudiante.Anio - @Model.Estudiante.Division</h1>
                 </div>
                 <div class="butons-perfil">
                   <a class="Modificar" asp-controller="Modificar" asp-action="ModificarPerfil"><i class='bx bx-cog'></i></a>
@@ -52,7 +52,33 @@
           </section>
         </section>
         <section class="historial-evento">
-
+          <h2 class="titulo-evento">Eventos Inscritos</h2>
+          @foreach (var evento in Model.EventosInscritos)
+            {
+              string imagePath = "/Imagenes/" + (evento.ImagenUrl ?? "default.jpg");
+              <div class="event-content">
+                  <div class="image-container">
+                      <img class="image-event" src="@imagePath" alt="@evento.Nombre" />
+                  </div>
+                  <div class="description-event">
+                      <a class="titulo-evento" asp-controller="EventoCompleto" asp-action="EventoCompleto" asp-route-id="@evento.idEvento">
+                          @evento.Nombre
+                      </a>
+                      <p class="descripcion">@evento.Descripcion</p>
+                      <div class="div-eliminar">
+                          <p class="fecha-evento">@evento.Fecha.ToShortDateString()</p>
+                          @if (User.FindFirst(ClaimTypes.NameIdentifier)?.Value == evento.idEstudiante.ToString())
+                          {
+                              <form asp-controller="Evento" asp-action="EliminarEvento" method="post" onsubmit="return confirm('¿Estás seguro de que quieres eliminar este evento?');">
+                              <input type="hidden" name="idEvento" value="@evento.idEvento" />
+                              <button type="submit" class="boton boton-eliminar">Eliminar</button>
+                              </form>
+                          }
+                      </div>
+                  </div>
+              </div>
+            }
         </section>
       </main>
     <script src="../js/Perfil.js"></script>
+
