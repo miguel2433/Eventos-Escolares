@@ -54,25 +54,69 @@ header{
   position: relative;
 }
 
-.div-input label {
+.div-input-busqueda{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+/* Estilos generales para ambos tipos de div-input */
+.div-input label,
+.div-input-busqueda label {
   position: absolute;
   font-size: 12px;
   top: 14px;
   left: 10px;
   opacity: 0;
   transition: all 0.5s ease-in-out;
-  pointer-events: none; /* Evita que el label interfiera con el input */
+  pointer-events: none;
 }
 
-.div-input input {
+/* Estilos específicos para div-input-busqueda */
+.div-input-busqueda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.div-input-busqueda input {
   margin-top: 30px;
   height: 40px;
   width: 200px;
   border-radius: 20px;
-  transition: border 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   outline: none;
   border: 2px solid #d7d7d7;
   padding-left: 10px;
+}
+
+/* Ajuste del label cuando el input está en foco o tiene contenido */
+.div-input-busqueda input:focus + label,
+.div-input-busqueda input:not(:placeholder-shown) + label {
+  font-weight: 700;
+  background-color: white;
+  top: 21px;
+  opacity: 1;
+  font-size: 0.9em;
+  color: rgb(100, 100, 196);
+}
+
+/* Estilos para el placeholder y el foco del input */
+.div-input-busqueda input::placeholder {
+  color: #d7d7d7; 
+  transition: color .5s ease-in-out;
+}
+
+.div-input-busqueda input:focus::placeholder {
+  color: rgba(100, 100, 196, 0.5); 
+}
+
+.div-input-busqueda input:focus {
+  border: 2px solid rgb(100, 100, 196);
 }
 
 /* Cambia el estilo del borde cuando el input está en foco */
@@ -91,12 +135,31 @@ header{
   color: rgb(100, 100, 196);
 }
 
+.div-input-busqueda input:focus + label,
+.div-input-busqueda input:not(:placeholder-shown) + label {
+  font-weight: 700;
+  background-color: white;
+  top: 21px;
+  opacity: 1;
+  font-size: 0.9em;
+  color: rgb(100, 100, 196);
+}
+
+.div-input-busqueda input:focus::placeholder {
+  color: rgba(100, 100, 196, 0.5); 
+}
+
+.div-input-busqueda input:focus{
+  border: 2px solid rgb(100, 100, 196);
+}
+
 .div-input input:focus ::placeholder {
   color: #d7d7d7; /* Esconde el texto del placeholder */
   transition: color .5s ease-in-out;
 }
+
 .div-input input:focus::placeholder {
-  color: rgba(100, 100, 196, 0.5); /* Cambiar el color del placeholder al enfocar */
+  color: rgba(100, 100, 196, 0.5); 
 }
 
 

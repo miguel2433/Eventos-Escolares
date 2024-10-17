@@ -49,5 +49,21 @@ namespace BackEnd.Controllers
 
             return RedirectToAction("Evento");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> BuscarEventos(string titulo)
+        {
+            if (string.IsNullOrWhiteSpace(titulo))
+            {
+                TempData["MensajeBusqueda"] = "No se ha ingresado ningun titulo";
+                return RedirectToAction("Evento");
+            }
+            var eventos = await _repoEvento.ObtenerEventosPorTitulo(titulo);
+            if (eventos == null || !eventos.Any())
+            {
+                TempData["Mensaje"] = "No se ha encontrado ningún evento";
+            }
+            return View("Evento", eventos);
+        }
     }
 }

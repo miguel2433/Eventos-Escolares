@@ -11,10 +11,18 @@
 <aside class="aside-evento">
     <div class="aside-content">
         <h1>Filtrar</h1>
-        <div class="div-input">
-            <input class="buscar-input" name="Buscar" type="search" placeholder="Buscar evento">
-            <label for="Buscar">Buscar</label>
-        </div>
+        <form class="div-input-busqueda" asp-controller="Evento" asp-action="BuscarEventos" method="post">
+            <input class="buscar-input" name="titulo" type="search" placeholder="Buscar evento">
+            <label for="titulo">Buscar</label>
+            @if (TempData["Mensaje"] != null)
+            {
+                <p class="mensaje-error">@TempData["Mensaje"]</p>
+            }
+            @if(TempData["MensajeBusqueda"] != null)
+            {
+                <p class="mensaje-error">@TempData["MensajeBusqueda"]</p>
+            }
+        </form>
     </div>
     <div class="border-aside"></div>
 </aside>

@@ -1,3 +1,5 @@
+using Org.BouncyCastle.Crypto.Agreement.Kdf;
+
 namespace BackEnd.Servicios
 {
     public class RepoEvento : IRepoEvento
@@ -75,6 +77,15 @@ namespace BackEnd.Servicios
             using (var connection = _dbContext.CreateConnection())
             {
                 await connection.ExecuteAsync("DELETE FROM Evento WHERE idEvento = @idEvento", new { idEvento });
+            }
+        }
+
+        public async Task<IEnumerable<Evento>>? ObtenerEventosPorTitulo(string titulo)
+        {
+            using (var connection = _dbContext.CreateConnection())
+            {
+                var tituloConcatenado = titulo + "*";
+                return await connection.QueryAsync<Evento>(@"SELECT * FROM Evento WHERE MATCH(Nombre) AGAINST(@tituloConcatenado IN BOOLEAN MODE);", new { tituloConcatenado });
             }
         }
     }

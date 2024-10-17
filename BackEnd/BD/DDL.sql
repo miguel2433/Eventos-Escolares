@@ -39,6 +39,9 @@ CREATE TABLE Evento (
     FOREIGN KEY (idEstudiante) REFERENCES Estudiante(idEstudiante)
 );
 
+ALTER TABLE `5to_OrganizacionEventosEscolares`.`Evento`
+ADD FULLTEXT INDEX ft_index_titulo (Nombre);
+
 -- Crear la tabla de participaciones
 CREATE TABLE Participaciones (
     idParticipacion INT AUTO_INCREMENT PRIMARY KEY,

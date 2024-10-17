@@ -11,5 +11,7 @@ namespace BackEnd.Servicios
         Task<IEnumerable<Evento>> ObtenerTodos();
 
         Task Eliminar(int idEvento);
+
+        Task <IEnumerable<Evento>>? ObtenerEventosPorTitulo(string titulo);
     }
 }
