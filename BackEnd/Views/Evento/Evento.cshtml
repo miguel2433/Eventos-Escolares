@@ -14,15 +14,15 @@
         <form class="div-input-busqueda" asp-controller="Evento" asp-action="BuscarEventos" method="post">
             <input class="buscar-input" name="titulo" type="search" placeholder="Buscar evento">
             <label for="titulo">Buscar</label>
-            @if (TempData["Mensaje"] != null)
-            {
-                <p class="mensaje-error">@TempData["Mensaje"]</p>
-            }
-            @if(TempData["MensajeBusqueda"] != null)
-            {
-                <p class="mensaje-error">@TempData["MensajeBusqueda"]</p>
-            }
         </form>
+        @if (TempData["Mensaje"] != null)
+        {
+            <p class="mensaje-error">@TempData["Mensaje"]</p>
+        }
+        @if(TempData["MensajeBusqueda"] != null)
+        {
+            <p class="mensaje-error">@TempData["MensajeBusqueda"]</p>
+        }
     </div>
     <div class="border-aside"></div>
 </aside>

@@ -307,3 +307,10 @@ header{
 .boton-eliminar:hover {
   background-color: #ff3333;
 }
+
+.mensaje-error{
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
