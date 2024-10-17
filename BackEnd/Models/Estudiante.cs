@@ -1,4 +1,3 @@
-
 namespace BackEnd.Models
 {
     public class Estudiante
@@ -21,5 +20,6 @@ namespace BackEnd.Models
 
         public required string Contrasena { get; set; }
 
+        public bool IsAdmin { get; set; }
     }
 }

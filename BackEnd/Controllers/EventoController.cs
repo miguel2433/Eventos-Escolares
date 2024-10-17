@@ -4,11 +4,13 @@ namespace BackEnd.Controllers
     {
         private readonly IRepoEvento _repoEvento;
         private readonly IRepoParticipacion _repoParticipacion;
+        private readonly IRepoEstudiante _repoEstudiante;
 
-        public EventoController(IRepoEvento repoEvento, IRepoParticipacion repoParticipacion)
+        public EventoController(IRepoEvento repoEvento, IRepoParticipacion repoParticipacion, IRepoEstudiante repoEstudiante)
         {
             _repoEvento = repoEvento;
             _repoParticipacion = repoParticipacion;
+            _repoEstudiante = repoEstudiante;
         }
         public async Task<IActionResult> Evento()
         {   
@@ -33,21 +35,27 @@ namespace BackEnd.Controllers
         [HttpPost]
         public async Task<IActionResult> EliminarEvento(int idEvento)
         {
-            var estudianteActualId = Convert.ToInt32(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
-            var evento = await _repoEvento.ObtenerPorId(idEvento);
-
-            if (evento == null || evento.idEstudiante != estudianteActualId)
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userIdClaim == null)
             {
-                return Forbid();
+                return Unauthorized();
             }
 
-            await _repoParticipacion.EliminarParticipacionPorCondicion("idEvento = @idEvento", new { idEvento });
-            
-            await _repoEvento.Eliminar(idEvento);
-            
-            // Eliminar todas las participaciones asociadas al evento
+            var estudiante = await _repoEstudiante.ObtenerPorId(int.Parse(userIdClaim));
+            var evento = await _repoEvento.ObtenerPorId(idEvento);
 
-            return RedirectToAction("Evento");
+            if (evento == null)
+            {
+                return NotFound();
+            }
+
+            if (estudiante.IsAdmin || evento.idEstudiante == estudiante.idEstudiante)
+            {
+                await _repoEvento.Eliminar(idEvento);
+                return RedirectToAction("Evento");
+            }
+
+            return Forbid();
         }
 
         [HttpPost]

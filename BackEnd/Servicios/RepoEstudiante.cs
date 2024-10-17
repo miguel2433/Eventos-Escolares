@@ -72,5 +72,16 @@ namespace BackEnd.Servicios
             }
         }
 
+        public async Task<Estudiante>? ObtenerPorCorreo(string correo)
+        {
+            using (var connection = _dbContext.CreateConnection())
+            {
+                return await connection.QuerySingleOrDefaultAsync<Estudiante>(@"
+                    SELECT *
+                    FROM Estudiante
+                    WHERE Correo = @Correo;", 
+                    new { Correo = correo });
+            }
+        }
     }
 }

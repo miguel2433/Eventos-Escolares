@@ -176,6 +176,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\2c288a20-f162-48b0-a451-be3d3f30326b_Captura de pantalla de 2024-03-22 15-14-31.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\42a01f7f-2e6b-4bcd-846f-c314e8f03b41_Captura de pantalla de 2024-03-22 16-08-52.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BackEnd</BasePath>
+      <RelativePath>Imagenes/42a01f7f-2e6b-4bcd-846f-c314e8f03b41_Captura de pantalla de 2024-03-22 16-08-52.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\42a01f7f-2e6b-4bcd-846f-c314e8f03b41_Captura de pantalla de 2024-03-22 16-08-52.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\4adda5d3-e67d-4e17-85a0-836b324f266a_Captura de pantalla de 2024-10-02 21-34-04.png))">
       <SourceType>Package</SourceType>
       <SourceId>BackEnd</SourceId>

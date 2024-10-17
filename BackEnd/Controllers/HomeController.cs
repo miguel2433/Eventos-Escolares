@@ -29,13 +29,20 @@ public class HomeController : Controller
             // Buscar el usuario existente por correo
             var usuarioExistente = (await repoEstudiante.ObtenerPorCondicion(estudiante => estudiante.Correo == index.Login.CorreoLogin)).FirstOrDefault();
 
+            Console.WriteLine($"Intento de login para correo: {index.Login.CorreoLogin}");
+            Console.WriteLine($"Usuario encontrado: {usuarioExistente != null}");
+
             // Verificar si el usuario existe
             if (usuarioExistente != null)
             {
+                Console.WriteLine($"Username coincide: {usuarioExistente.Username == index.Login.UsernameLogin}");
                 if(usuarioExistente.Username == index.Login.UsernameLogin)
                 {
                     // Verificar la contraseña
-                    if (BCrypt.Net.BCrypt.Verify(index.Login.ContrasenaLogin, usuarioExistente.Contrasena))
+                    bool passwordVerified = BCrypt.Net.BCrypt.Verify(index.Login.ContrasenaLogin, usuarioExistente.Contrasena);
+                    Console.WriteLine($"Contraseña verificada: {passwordVerified}");
+
+                    if (passwordVerified)
                     {
                         // Crear las reclamaciones del usuario
                         var claims = new List<Claim>
@@ -107,6 +114,11 @@ public class HomeController : Controller
                 new Claim(ClaimTypes.Email, estudiante.Correo)
             };
 
+        if (estudiante.IsAdmin)
+        {
+            claims.Add(new Claim(ClaimTypes.Role, "Admin"));
+        }
+
         var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
         var principal = new ClaimsPrincipal(identity);
 
@@ -120,3 +132,6 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }
+
+
+

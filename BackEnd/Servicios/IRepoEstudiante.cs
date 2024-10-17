@@ -8,6 +8,8 @@ namespace BackEnd.Servicios
 
          Task<IEnumerable<Estudiante>> ObtenerPorCondicion(Func<Estudiante, bool> predicate);
 
+         Task<Estudiante>? ObtenerPorCorreo(string correo);
+
          
     }
 }

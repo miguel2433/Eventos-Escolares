@@ -48,7 +48,7 @@
                     <p class="descripcion">@evento.Descripcion</p>
                     <div class="div-eliminar">
                         <p class="fecha-evento">@evento.Fecha.ToShortDateString()</p>
-                        @if (User.FindFirst(ClaimTypes.NameIdentifier)?.Value == evento.idEstudiante.ToString())
+                        @if (User.FindFirst(ClaimTypes.NameIdentifier)?.Value == evento.idEstudiante.ToString() || User.FindFirst(ClaimTypes.Email)?.Value == "admin@gmail.com")
                         {
                             <form asp-controller="Evento" asp-action="EliminarEvento" method="post" onsubmit="return confirm('¿Estás seguro de que quieres eliminar este evento?');">
                             <input type="hidden" name="idEvento" value="@evento.idEvento" />
