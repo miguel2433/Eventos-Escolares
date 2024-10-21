@@ -5,6 +5,7 @@ let Estado = false;
 // Cuando el input recibe el foco
 Input.addEventListener('focus', function() {
     Aside.style.height = '100%';
+    Aside.style.boxShadow = '5px 0px 10px 1px rgba(100, 100, 196, 0.8)';
     Estado = true;
 });
 
@@ -14,6 +15,7 @@ document.addEventListener('click', function(event) {
         // Si el clic es fuera del input
         if (Estado) {
             Aside.style.height = '80%';
+            Aside.style.boxShadow = 'none'
             Estado = false;
         }
     }

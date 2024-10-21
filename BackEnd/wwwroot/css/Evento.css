@@ -167,7 +167,7 @@ header{
 .border-aside{
     border: 1px solid rgb(100, 100, 196);
     height: 90%;
-    transition: height .4s ease-out;
+    transition: height .4s ease-out, box-shadow .4s ease;
 }
 
 
