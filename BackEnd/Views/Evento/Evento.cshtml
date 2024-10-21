@@ -4,6 +4,10 @@
     ViewData["Title"] = "Eventos";
 }
 
+@{
+    string ClassName = Model == null || !Model.Any() ? "main-sin-eventos" : "main-evento";
+}
+
 @section Styles {
     <link rel="stylesheet" href="~/css/Evento.css" asp-append-version="true" />
 }
@@ -27,10 +31,10 @@
     <div class="border-aside"></div>
 </aside>
 
-<main class="main-evento">
+<main class="@ClassName">
     @if (Model == null || !Model.Any())
     {
-        <p>No hay eventos disponibles.</p>
+        <p class="sinEventos">No hay eventos disponibles.</p>
     }
     else
     {
@@ -51,8 +55,8 @@
                         @if (User.FindFirst(ClaimTypes.NameIdentifier)?.Value == evento.idEstudiante.ToString() || User.FindFirst(ClaimTypes.Email)?.Value == "admin@gmail.com")
                         {
                             <form asp-controller="Evento" asp-action="EliminarEvento" method="post" onsubmit="return confirm('¿Estás seguro de que quieres eliminar este evento?');">
-                            <input type="hidden" name="idEvento" value="@evento.idEvento" />
-                            <button type="submit" class="boton boton-eliminar">Eliminar</button>
+                                <input type="hidden" name="idEvento" value="@evento.idEvento" />
+                                <button type="submit" class="boton boton-eliminar">Eliminar</button>
                             </form>
                         }
                     </div>
