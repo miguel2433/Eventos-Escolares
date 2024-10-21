@@ -15,7 +15,8 @@ CREATE TABLE Estudiante (
     Correo VARCHAR(100),
     Username VARCHAR(100),
     ImagenUrl VARCHAR(255),
-    Contrasena VARCHAR(255)
+    Contrasena VARCHAR(255),
+    IsAdmin BOOLEAN
 );
 
 -- Crear la tabla de organizadores

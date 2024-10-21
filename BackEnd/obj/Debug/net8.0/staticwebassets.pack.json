@@ -1,50 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/15b7655d-648b-45cd-b3e1-fb04a6d4f917_github-icon-2.svg",
-      "PackagePath": "staticwebassets/Imagenes/15b7655d-648b-45cd-b3e1-fb04a6d4f917_github-icon-2.svg"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/2c288a20-f162-48b0-a451-be3d3f30326b_Captura de pantalla de 2024-03-22 15-14-31.png",
-      "PackagePath": "staticwebassets/Imagenes/2c288a20-f162-48b0-a451-be3d3f30326b_Captura de pantalla de 2024-03-22 15-14-31.png"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/42a01f7f-2e6b-4bcd-846f-c314e8f03b41_Captura de pantalla de 2024-03-22 16-08-52.png",
-      "PackagePath": "staticwebassets/Imagenes/42a01f7f-2e6b-4bcd-846f-c314e8f03b41_Captura de pantalla de 2024-03-22 16-08-52.png"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/4adda5d3-e67d-4e17-85a0-836b324f266a_Captura de pantalla de 2024-10-02 21-34-04.png",
-      "PackagePath": "staticwebassets/Imagenes/4adda5d3-e67d-4e17-85a0-836b324f266a_Captura de pantalla de 2024-10-02 21-34-04.png"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/5576a4e8-895c-4cfa-8e0f-b37ef979efcd_3.png",
-      "PackagePath": "staticwebassets/Imagenes/5576a4e8-895c-4cfa-8e0f-b37ef979efcd_3.png"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/56a950ba-31ce-4047-a85c-6a46f90d3f18_11.png",
-      "PackagePath": "staticwebassets/Imagenes/56a950ba-31ce-4047-a85c-6a46f90d3f18_11.png"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/66ea38ab-e175-4a43-9076-d92a9bb3196d_Web 1920 – 1.png",
-      "PackagePath": "staticwebassets/Imagenes/66ea38ab-e175-4a43-9076-d92a9bb3196d_Web 1920 – 1.png"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/80192e97-9690-4fd7-abdd-84752e34fc57_Captura de pantalla de 2024-10-02 21-34-04.png",
-      "PackagePath": "staticwebassets/Imagenes/80192e97-9690-4fd7-abdd-84752e34fc57_Captura de pantalla de 2024-10-02 21-34-04.png"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/8bf4bc42-7888-41a9-b940-dea386334244_Captura de pantalla de 2024-08-28 20-40-33.png",
-      "PackagePath": "staticwebassets/Imagenes/8bf4bc42-7888-41a9-b940-dea386334244_Captura de pantalla de 2024-08-28 20-40-33.png"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/96b503c4-cb67-4329-bf56-357e3e411ded_favicon.ico",
-      "PackagePath": "staticwebassets/Imagenes/96b503c4-cb67-4329-bf56-357e3e411ded_favicon.ico"
-    },
-    {
-      "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/Imagenes/bab0d189-edaa-4894-b520-886c17b810f1_Captura de pantalla de 2024-09-09 11-53-22.png",
-      "PackagePath": "staticwebassets/Imagenes/bab0d189-edaa-4894-b520-886c17b810f1_Captura de pantalla de 2024-09-09 11-53-22.png"
-    },
-    {
       "Id": "/home/et12alumno/Escritorio/Eventos-Escolares/BackEnd/wwwroot/css/CrearEvento.css",
       "PackagePath": "staticwebassets/css/CrearEvento.css"
     },
