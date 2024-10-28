@@ -73,7 +73,18 @@ using (var scope = app.Services.CreateScope())
                 Apellido = "Pérez",
                 Username = "juanp",
                 Correo = "juan.perez@gmail.com",
-                Contrasena = BCrypt.Net.BCrypt.HashPassword("password1"),
+                Contrasena = BCrypt.Net.BCrypt.HashPassword("123"),
+                Anio = 1,
+                Division = 2,
+                IsAdmin = false
+            },
+            new Estudiante
+            {
+                Nombre = "Miguel",
+                Apellido = "Verduguez",
+                Username = "MiguelV",
+                Correo = "Miguel.Verduguez@gmail.com",
+                Contrasena = BCrypt.Net.BCrypt.HashPassword("123"),
                 Anio = 1,
                 Division = 2,
                 IsAdmin = false
@@ -84,7 +95,7 @@ using (var scope = app.Services.CreateScope())
                 Apellido = "García",
                 Username = "mariag",
                 Correo = "maria.garcia@gmail.com",
-                Contrasena = BCrypt.Net.BCrypt.HashPassword("password2"),
+                Contrasena = BCrypt.Net.BCrypt.HashPassword("123"),
                 Anio = 2,
                 Division = 3,
                 IsAdmin = false
